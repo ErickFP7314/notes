@@ -1,7 +1,7 @@
-# [L25b] Construcción del Arnés de IA (Bucle y Memoria)
+# [L26] Construcción del Arnés de IA (Bucle y Memoria)
 
 > **Módulo:** M4 — Creación de Productos, SDD y Monetización  
-> **Lección:** L25b  
+> **Lección:** L26  
 > **Tags:** `agente` `rpl-loop` `herramientas` `polimorfismo` `memoria`
 
 ---

@@ -1,7 +1,7 @@
-# [L33] El Segundo Cerebro Empresarial
+# [L34] El Segundo Cerebro Empresarial
 
 > **Módulo:** M5 — Obsidian y Gestión Empresarial  
-> **Lección:** L33  
+> **Lección:** L34  
 > **Tags:** `segundo-cerebro` `conocimiento-organizacional` `bulk-ingest` `arquitectura-empresarial` `lint` `ventaja-competitiva`
 
 ---

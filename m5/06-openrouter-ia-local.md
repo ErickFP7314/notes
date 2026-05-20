@@ -1,7 +1,7 @@
-# [L34] OpenRouter e IA Local: Sin Límites de Presupuesto
+# [L35] OpenRouter e IA Local: Sin Límites de Presupuesto
 
 > **Módulo:** M5 — Obsidian y Gestión Empresarial (Lección Bonus)  
-> **Lección:** L34  
+> **Lección:** L35  
 > **Tags:** `openrouter` `ollama` `ia-local` `lm-studio` `privacidad` `modelos-locales` `free-tier`
 
 ---

@@ -1,7 +1,7 @@
-# [L26] Orquestación Multi-Agente y Memoria Persistente con Engram
+# [L27] Orquestación Multi-Agente y Memoria Persistente con Engram
 
 > **Módulo:** M4 — Creación de Productos, SDD y Monetización  
-> **Lección:** L26  
+> **Lección:** L27  
 > **Tags:** `orquestación` `multi-agente` `engram` `memoria-persistente` `tmux` `multi-modelo` `solopreneur`
 
 ---

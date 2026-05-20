@@ -1,7 +1,7 @@
-# [L32] Gestión Empresarial con Obsidian
+# [L33] Gestión Empresarial con Obsidian
 
 > **Módulo:** M5 — Obsidian y Gestión Empresarial  
-> **Lección:** L32  
+> **Lección:** L33  
 > **Tags:** `obsidian` `gestión-equipos` `mermaid` `trello-api` `sprints` `code-review` `prompt-engineering`
 
 ---
