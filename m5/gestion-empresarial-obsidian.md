@@ -144,17 +144,13 @@ Código a revisar: [código]
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> La nota de Markdown es la fuente de verdad del sprint — Trello es solo la vista de seguimiento del equipo. Esta inversión de roles es la clave de la arquitectura: si Trello deja de existir mañana, tu sprint sigue documentado en Markdown. Si Notion cierra, lo mismo. El conocimiento y la planificación no dependen de ninguna plataforma externa para existir.
+> 🔴 **Importante:** La nota de Markdown es la fuente de verdad del sprint — Trello es solo la vista de seguimiento del equipo. Esta inversión de roles es la clave de la arquitectura: si Trello deja de existir mañana, tu sprint sigue documentado en Markdown. Si Notion cierra, lo mismo. El conocimiento y la planificación no dependen de ninguna plataforma externa para existir.
 
-> [!WARNING]
-> Un prompt de auditoría de código sin estructura de salida definida produce resultados que no se pueden priorizar ni procesar sistemáticamente. "Revisa este código" da un párrafo de texto libre. El mismo prompt con formato de salida estricto (archivo, línea, tipo, solución) da una tabla que el equipo puede ordenar por severidad e integrar directamente al backlog. La diferencia está en la especificidad del prompt, no en la calidad del modelo.
+> ⚠️ **Advertencia:** Un prompt de auditoría de código sin estructura de salida definida produce resultados que no se pueden priorizar ni procesar sistemáticamente. "Revisa este código" da un párrafo de texto libre. El mismo prompt con formato de salida estricto (archivo, línea, tipo, solución) da una tabla que el equipo puede ordenar por severidad e integrar directamente al backlog. La diferencia está en la especificidad del prompt, no en la calidad del modelo.
 
-> [!TIP]
-> El agente puede generar el Mermaid desde una descripción en lenguaje natural — no necesitas conocer la sintaxis. Prompt: "Genera un diagrama Mermaid de tipo flowchart para [descripción del flujo]". El resultado es el bloque de código listo para pegar en la nota de Obsidian donde se renderizará automáticamente.
+> 💡 **Tip:** El agente puede generar el Mermaid desde una descripción en lenguaje natural — no necesitas conocer la sintaxis. Prompt: "Genera un diagrama Mermaid de tipo flowchart para [descripción del flujo]". El resultado es el bloque de código listo para pegar en la nota de Obsidian donde se renderizará automáticamente.
 
-> [!NOTE]
-> Lo que los planes de estudio de administración de empresas no enseñan no es por negligencia sino por velocidad de actualización: los currículums se actualizan en ciclos de años, las herramientas en ciclos de meses. La brecha entre lo que se enseña y lo que existe es una ventaja para quien la cierra ahora — no una queja sobre el sistema educativo.
+> 📌 **Nota:** Lo que los planes de estudio de administración de empresas no enseñan no es por negligencia sino por velocidad de actualización: los currículums se actualizan en ciclos de años, las herramientas en ciclos de meses. La brecha entre lo que se enseña y lo que existe es una ventaja para quien la cierra ahora — no una queja sobre el sistema educativo.
 
 ## 🔗 Ver también
 

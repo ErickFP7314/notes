@@ -70,17 +70,13 @@ título, objetivo de cada slide, y 2-3 puntos clave por slide."
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> Gemini en Google Docs, Sheets y Slides (versión avanzada) reduce la fricción de cambiar entre herramientas. Puedes pedirle que redacte, analice o reformate directamente dentro del documento que estás usando. Esto no es solo comodidad — elimina el ciclo de copiar/pegar que interrumpe el flujo de trabajo.
+> 🔴 **Importante:** Gemini en Google Docs, Sheets y Slides (versión avanzada) reduce la fricción de cambiar entre herramientas. Puedes pedirle que redacte, analice o reformate directamente dentro del documento que estás usando. Esto no es solo comodidad — elimina el ciclo de copiar/pegar que interrumpe el flujo de trabajo.
 
-> [!WARNING]
-> Deep Search cita fuentes pero puede parafrasear de forma que distorsiona el original. Especialmente en datos técnicos, estadísticas y fechas: nunca uses un dato de Deep Search en un entregable serio sin haber revisado el documento primario. La síntesis es valiosa para orientarse, no para citar.
+> ⚠️ **Advertencia:** Deep Search cita fuentes pero puede parafrasear de forma que distorsiona el original. Especialmente en datos técnicos, estadísticas y fechas: nunca uses un dato de Deep Search en un entregable serio sin haber revisado el documento primario. La síntesis es valiosa para orientarse, no para citar.
 
-> [!NOTE]
-> La ventana de contexto de Gemini es una de las más grandes del mercado. Combinada con la integración con Drive, esto significa que puedes subir repositorios de documentación extensos y hacer preguntas que abarcan el corpus completo — algo que con ventanas más cortas requeriría fragmentar y hacer múltiples consultas.
+> 📌 **Nota:** La ventana de contexto de Gemini es una de las más grandes del mercado. Combinada con la integración con Drive, esto significa que puedes subir repositorios de documentación extensos y hacer preguntas que abarcan el corpus completo — algo que con ventanas más cortas requeriría fragmentar y hacer múltiples consultas.
 
-> [!TIP]
-> Los Gems preconfigurados de Google son un punto de partida, no el destino. El valor real está en construir un Gem que ya sabe que trabajas con [tu stack], que conoce el tono de tu empresa y que tiene tus criterios de calidad como instrucciones base. Ese Gem reemplaza el párrafo de presentación que escribirías al inicio de cada chat.
+> 💡 **Tip:** Los Gems preconfigurados de Google son un punto de partida, no el destino. El valor real está en construir un Gem que ya sabe que trabajas con [tu stack], que conoce el tono de tu empresa y que tiene tus criterios de calidad como instrucciones base. Ese Gem reemplaza el párrafo de presentación que escribirías al inicio de cada chat.
 
 ---
 

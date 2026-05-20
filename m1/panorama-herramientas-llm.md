@@ -56,17 +56,13 @@ Los **benchmarks** son referencia, no criterio definitivo. Un modelo que puntúa
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> DeepSeek demostró en enero 2025 que el costo de entrenamiento de modelos de frontera puede reducirse drásticamente con arquitecturas eficientes (Mixture of Experts). Esto presionó hacia abajo los precios de inferencia de toda la industria. Seguir asumiendo que los modelos privados de OpenAI y Google son insuperables por su escala ya no es una premisa válida.
+> 🔴 **Importante:** DeepSeek demostró en enero 2025 que el costo de entrenamiento de modelos de frontera puede reducirse drásticamente con arquitecturas eficientes (Mixture of Experts). Esto presionó hacia abajo los precios de inferencia de toda la industria. Seguir asumiendo que los modelos privados de OpenAI y Google son insuperables por su escala ya no es una premisa válida.
 
-> [!WARNING]
-> El "mejor modelo del mundo" cambia cada dos o tres meses. Elegir herramientas por benchmarks actuales es una estrategia que caduca rápido. Más sostenible: entender el nicho de cada proveedor (ecosistema, open source, especialización técnica) y adaptar la elección según el proyecto.
+> ⚠️ **Advertencia:** El "mejor modelo del mundo" cambia cada dos o tres meses. Elegir herramientas por benchmarks actuales es una estrategia que caduca rápido. Más sostenible: entender el nicho de cada proveedor (ecosistema, open source, especialización técnica) y adaptar la elección según el proyecto.
 
-> [!NOTE]
-> La ventana de contexto de Kimi (+1M tokens) no es un detalle académico. La novela más larga en español tiene alrededor de 700k palabras. Poder procesar esa cantidad en un solo chat abre casos de uso que son imposibles con ventanas estándar de 200k tokens.
+> 📌 **Nota:** La ventana de contexto de Kimi (+1M tokens) no es un detalle académico. La novela más larga en español tiene alrededor de 700k palabras. Poder procesar esa cantidad en un solo chat abre casos de uso que son imposibles con ventanas estándar de 200k tokens.
 
-> [!TIP]
-> Para trabajo en este curso: Claude para todo lo técnico y de largo plazo (agentes, proyectos, código), Gemini para investigación con web en tiempo real, NotebookLM para sintetizar documentos propios. Esa trinidad cubre el 90% de los escenarios.
+> 💡 **Tip:** Para trabajo en este curso: Claude para todo lo técnico y de largo plazo (agentes, proyectos, código), Gemini para investigación con web en tiempo real, NotebookLM para sintetizar documentos propios. Esa trinidad cubre el 90% de los escenarios.
 
 ---
 

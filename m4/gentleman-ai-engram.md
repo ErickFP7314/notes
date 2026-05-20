@@ -129,17 +129,13 @@ model_assignments:
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> El orquestador que escribe código contamina su contexto y llega al límite rápidamente. La regla "el orquestador nunca escribe código" no es una preferencia — es lo que hace posible procesar proyectos grandes usando solo el 15-18% de la ventana de contexto. Violarla colapsa el sistema en sesiones largas.
+> 🔴 **Importante:** El orquestador que escribe código contamina su contexto y llega al límite rápidamente. La regla "el orquestador nunca escribe código" no es una preferencia — es lo que hace posible procesar proyectos grandes usando solo el 15-18% de la ventana de contexto. Violarla colapsa el sistema en sesiones largas.
 
-> [!NOTE]
-> Engram no es solo conveniencia — es lo que convierte un agente episódico en un colaborador de largo plazo. Sin memoria persistente, cada sesión paga el costo de re-establecer el contexto. Con Engram, ese costo se paga una sola vez cuando se documenta la decisión, y se recupera sin costo en todas las sesiones siguientes.
+> 📌 **Nota:** Engram no es solo conveniencia — es lo que convierte un agente episódico en un colaborador de largo plazo. Sin memoria persistente, cada sesión paga el costo de re-establecer el contexto. Con Engram, ese costo se paga una sola vez cuando se documenta la decisión, y se recupera sin costo en todas las sesiones siguientes.
 
-> [!TIP]
-> El routing de modelos no tiene que ser manual. Un orquestador bien configurado asigna el modelo según el tipo de tarea automáticamente. Define las reglas una vez en la configuración del harness y el sistema las aplica sin que intervengas en cada delegación.
+> 💡 **Tip:** El routing de modelos no tiene que ser manual. Un orquestador bien configurado asigna el modelo según el tipo de tarea automáticamente. Define las reglas una vez en la configuración del harness y el sistema las aplica sin que intervengas en cada delegación.
 
-> [!WARNING]
-> El Session Summary al final de cada sesión es el paso más saltado y el más costoso de saltar. Sin él, la próxima sesión empieza con un agente que no sabe en qué estaba trabajando, qué decisiones se tomaron, o qué no se debe repetir. El costo de re-establecer ese contexto es mayor que el de documentarlo en el momento.
+> ⚠️ **Advertencia:** El Session Summary al final de cada sesión es el paso más saltado y el más costoso de saltar. Sin él, la próxima sesión empieza con un agente que no sabe en qué estaba trabajando, qué decisiones se tomaron, o qué no se debe repetir. El costo de re-establecer ese contexto es mayor que el de documentarlo en el momento.
 
 ---
 

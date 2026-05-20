@@ -100,17 +100,13 @@ y [[Proyecto Y]] donde sea relevante."
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> Claude Code no opera en la interfaz de Obsidian — opera en VS Code sobre la misma carpeta. La vault es simplemente una carpeta de archivos Markdown. Obsidian solo la visualiza. Puedes tener ambas aplicaciones abiertas simultáneamente: Obsidian para navegar el grafo visual, VS Code + Claude Code para trabajar y editar.
+> 🔴 **Importante:** Claude Code no opera en la interfaz de Obsidian — opera en VS Code sobre la misma carpeta. La vault es simplemente una carpeta de archivos Markdown. Obsidian solo la visualiza. Puedes tener ambas aplicaciones abiertas simultáneamente: Obsidian para navegar el grafo visual, VS Code + Claude Code para trabajar y editar.
 
-> [!WARNING]
-> Las Skills de Kepano no son un plugin de Obsidian — son archivos de instrucciones que le dicen a Claude Code cómo interactuar con el formato de Obsidian correctamente: cómo crear backlinks, cómo respetar plantillas, cómo no romper la estructura existente. Sin ellas, Claude Code puede crear notas que no siguen las convenciones de Obsidian y quedan desconectadas del sistema.
+> ⚠️ **Advertencia:** Las Skills de Kepano no son un plugin de Obsidian — son archivos de instrucciones que le dicen a Claude Code cómo interactuar con el formato de Obsidian correctamente: cómo crear backlinks, cómo respetar plantillas, cómo no romper la estructura existente. Sin ellas, Claude Code puede crear notas que no siguen las convenciones de Obsidian y quedan desconectadas del sistema.
 
-> [!TIP]
-> Para incorporar conocimiento de fuentes externas (libros, papers, videos) sin romper el flujo de trabajo: usa NotebookLM para la síntesis inicial en formato audio, luego volcás los insights al brain dump diario. El costo cognitivo es mínimo — escuchas mientras te movés o haces otra cosa, y Claude Code hace el trabajo de estructurar lo que capturas.
+> 💡 **Tip:** Para incorporar conocimiento de fuentes externas (libros, papers, videos) sin romper el flujo de trabajo: usa NotebookLM para la síntesis inicial en formato audio, luego volcás los insights al brain dump diario. El costo cognitivo es mínimo — escuchas mientras te movés o haces otra cosa, y Claude Code hace el trabajo de estructurar lo que capturas.
 
-> [!NOTE]
-> El efecto compuesto no es una promesa de marketing — tiene una mecánica concreta. Cada sesión con Claude Code añade notas, backlinks y contexto al `cloud.md`. La próxima sesión comienza con más contexto. Con el tiempo, el agente puede predecir qué proyectos están relacionados, qué decisiones anteriores son relevantes para el problema actual, y qué información de Research aplica. No porque el modelo mejore, sino porque la memoria crece.
+> 📌 **Nota:** El efecto compuesto no es una promesa de marketing — tiene una mecánica concreta. Cada sesión con Claude Code añade notas, backlinks y contexto al `cloud.md`. La próxima sesión comienza con más contexto. Con el tiempo, el agente puede predecir qué proyectos están relacionados, qué decisiones anteriores son relevantes para el problema actual, y qué información de Research aplica. No porque el modelo mejore, sino porque la memoria crece.
 
 ## 🔗 Ver también
 

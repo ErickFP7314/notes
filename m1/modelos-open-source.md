@@ -86,17 +86,13 @@ huggingface.co/models
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> La arquitectura Mixture of Experts de DeepSeek cambió el supuesto base de la industria: que escalar parámetros = mejores modelos = más costo. MoE activa solo una fracción del modelo por consulta, lo que da capacidad de razonamiento alta con costo de inferencia bajo. Esto es relevante porque define la dirección en que va la arquitectura de los próximos modelos — propietarios y abiertos.
+> 🔴 **Importante:** La arquitectura Mixture of Experts de DeepSeek cambió el supuesto base de la industria: que escalar parámetros = mejores modelos = más costo. MoE activa solo una fracción del modelo por consulta, lo que da capacidad de razonamiento alta con costo de inferencia bajo. Esto es relevante porque define la dirección en que va la arquitectura de los próximos modelos — propietarios y abiertos.
 
-> [!WARNING]
-> "Open source" no siempre implica uso comercial libre. Algunos modelos (incluyendo versiones de Llama) tienen licencias que restringen el uso comercial a empresas con menos de cierto número de usuarios activos mensuales. Siempre revisar la licencia específica antes de integrar un modelo open source en un producto.
+> ⚠️ **Advertencia:** "Open source" no siempre implica uso comercial libre. Algunos modelos (incluyendo versiones de Llama) tienen licencias que restringen el uso comercial a empresas con menos de cierto número de usuarios activos mensuales. Siempre revisar la licencia específica antes de integrar un modelo open source en un producto.
 
-> [!NOTE]
-> Correr modelos localmente con Ollama tiene latencia más alta que las APIs comerciales en hardware consumer. Un modelo 7B en una GPU GTX 3090 genera ~30-50 tokens/segundo. Para trabajo interactivo es suficiente. Para sistemas de alto volumen en producción, OpenRouter o las APIs directas siguen siendo más eficientes.
+> 📌 **Nota:** Correr modelos localmente con Ollama tiene latencia más alta que las APIs comerciales en hardware consumer. Un modelo 7B en una GPU GTX 3090 genera ~30-50 tokens/segundo. Para trabajo interactivo es suficiente. Para sistemas de alto volumen en producción, OpenRouter o las APIs directas siguen siendo más eficientes.
 
-> [!TIP]
-> OpenRouter permite cambiar de modelo en tiempo real manteniendo la misma interfaz de API. Esto es valioso para experimentar: probar el mismo prompt en DeepSeek R1, Llama 3 70B y Mistral Large con una sola línea de cambio, sin tocar el resto del código.
+> 💡 **Tip:** OpenRouter permite cambiar de modelo en tiempo real manteniendo la misma interfaz de API. Esto es valioso para experimentar: probar el mismo prompt en DeepSeek R1, Llama 3 70B y Mistral Large con una sola línea de cambio, sin tocar el resto del código.
 
 ---
 

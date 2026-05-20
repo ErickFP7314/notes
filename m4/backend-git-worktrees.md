@@ -122,17 +122,13 @@ worktrunk remove feature/nueva-feature
 
 ## 📌 Notas y Alertas
 
-> [!WARNING]
-> Nunca borres un worktree con `rm -rf`. Git mantiene registros internos del worktree que `rm` no limpia, dejando el repo en estado corrupto. Siempre usa `git worktree remove <path>`. Si ya cometiste el error, ejecuta `git worktree prune` para reparar.
+> ⚠️ **Advertencia:** Nunca borres un worktree con `rm -rf`. Git mantiene registros internos del worktree que `rm` no limpia, dejando el repo en estado corrupto. Siempre usa `git worktree remove <path>`. Si ya cometiste el error, ejecuta `git worktree prune` para reparar.
 
-> [!IMPORTANT]
-> Los archivos `.env` no se copian automáticamente al crear un worktree. Si el agente que corre en el nuevo worktree no tiene acceso a las variables de entorno, fallará de formas no obvias — errores de conexión a base de datos, claves API ausentes. Copiar `.env` manualmente es el primer paso después de `git worktree add`.
+> 🔴 **Importante:** Los archivos `.env` no se copian automáticamente al crear un worktree. Si el agente que corre en el nuevo worktree no tiene acceso a las variables de entorno, fallará de formas no obvias — errores de conexión a base de datos, claves API ausentes. Copiar `.env` manualmente es el primer paso después de `git worktree add`.
 
-> [!NOTE]
-> Inforce (BaaS AI-native con MCP integrado) es la opción menos conocida de las cuatro pero la más relevante para proyectos que van a interactuar con modelos de IA desde el inicio. Permite ejecutar instrucciones a nivel de backend en lenguaje natural, lo que elimina una capa completa de traducción entre lo que quieres y lo que se ejecuta.
+> 📌 **Nota:** Inforce (BaaS AI-native con MCP integrado) es la opción menos conocida de las cuatro pero la más relevante para proyectos que van a interactuar con modelos de IA desde el inicio. Permite ejecutar instrucciones a nivel de backend en lenguaje natural, lo que elimina una capa completa de traducción entre lo que quieres y lo que se ejecuta.
 
-> [!TIP]
-> La estructura bare (`git clone --bare`) es el setup correcto para proyectos serios con múltiples worktrees. El repositorio bare actúa como directorio padre limpio y evita confusión sobre qué directorio tiene qué rama activa. Para un proyecto pequeño o temporal, el worktree simple sin bare es suficiente.
+> 💡 **Tip:** La estructura bare (`git clone --bare`) es el setup correcto para proyectos serios con múltiples worktrees. El repositorio bare actúa como directorio padre limpio y evita confusión sobre qué directorio tiene qué rama activa. Para un proyecto pequeño o temporal, el worktree simple sin bare es suficiente.
 
 ---
 

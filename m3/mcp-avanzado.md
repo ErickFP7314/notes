@@ -97,17 +97,13 @@ Desde VS Code: `Ctrl+Shift+P` → `Add MCP Server` → VS Code genera este archi
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> El decorador `@mcp.tool()` usa el docstring de la función como descripción de la Tool en el servidor MCP. Si el docstring es malo o está vacío, el modelo no sabrá cuándo ni cómo invocar la herramienta. El docstring no es documentación para humanos — es el prompt de invocación para el modelo.
+> 🔴 **Importante:** El decorador `@mcp.tool()` usa el docstring de la función como descripción de la Tool en el servidor MCP. Si el docstring es malo o está vacío, el modelo no sabrá cuándo ni cómo invocar la herramienta. El docstring no es documentación para humanos — es el prompt de invocación para el modelo.
 
-> [!WARNING]
-> Nunca saltes el paso de MCP Inspector. Un servidor que parece funcionar puede tener errores de serialización que solo aparecen cuando el modelo intenta invocar la herramienta con parámetros reales. Inspector te muestra el esquema exacto que el modelo verá y te permite probarlo antes de conectarlo a un cliente real.
+> ⚠️ **Advertencia:** Nunca saltes el paso de MCP Inspector. Un servidor que parece funcionar puede tener errores de serialización que solo aparecen cuando el modelo intenta invocar la herramienta con parámetros reales. Inspector te muestra el esquema exacto que el modelo verá y te permite probarlo antes de conectarlo a un cliente real.
 
-> [!TIP]
-> Para MCPs que deben funcionar sin autenticación compleja (demos, prototipos, uso personal), un token fijo en variable de entorno es completamente válido. No sobrediseñes la autenticación hasta que el MCP tenga usuarios reales que necesitan cuentas separadas.
+> 💡 **Tip:** Para MCPs que deben funcionar sin autenticación compleja (demos, prototipos, uso personal), un token fijo en variable de entorno es completamente válido. No sobrediseñes la autenticación hasta que el MCP tenga usuarios reales que necesitan cuentas separadas.
 
-> [!NOTE]
-> La contaminación de contexto por MCPs globales no es solo un problema de rendimiento — afecta directamente la calidad de las decisiones del agente. Un agente que ve 30 herramientas disponibles cuando solo necesita 3 tiene mayor probabilidad de invocar la herramienta equivocada. El aislamiento por workspace es una decisión de calidad, no solo de eficiencia.
+> 📌 **Nota:** La contaminación de contexto por MCPs globales no es solo un problema de rendimiento — afecta directamente la calidad de las decisiones del agente. Un agente que ve 30 herramientas disponibles cuando solo necesita 3 tiene mayor probabilidad de invocar la herramienta equivocada. El aislamiento por workspace es una decisión de calidad, no solo de eficiencia.
 
 ## 🔗 Ver también
 

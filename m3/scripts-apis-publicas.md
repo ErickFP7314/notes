@@ -61,17 +61,13 @@ print(message.content[0].text)
 
 ## 📌 Notas y Alertas
 
-> [!WARNING]
-> El 98.5% de tokens gastados en historial no es un caso extremo — es lo que ocurre en cualquier sesión larga de trabajo real. Sin gestión activa del contexto, el costo real por sesión es mucho mayor de lo que aparece en la factura de tokens útiles.
+> ⚠️ **Advertencia:** El 98.5% de tokens gastados en historial no es un caso extremo — es lo que ocurre en cualquier sesión larga de trabajo real. Sin gestión activa del contexto, el costo real por sesión es mucho mayor de lo que aparece en la factura de tokens útiles.
 
-> [!IMPORTANT]
-> Skill Creator es una meta-skill: genera skills, no produce resultados directos. El modo de evaluaciones es lo que separa una skill genérica de una que se activa con precisión quirúrgica. Sin ejemplos de referencia, el trigger puede ser ambiguo y el agente dudará entre skills.
+> 🔴 **Importante:** Skill Creator es una meta-skill: genera skills, no produce resultados directos. El modo de evaluaciones es lo que separa una skill genérica de una que se activa con precisión quirúrgica. Sin ejemplos de referencia, el trigger puede ser ambiguo y el agente dudará entre skills.
 
-> [!TIP]
-> La decisión entre Routines y n8n no es de preferencia sino de caso de uso. Para un resumen diario que requiere síntesis y razonamiento, Routines. Para un bot que debe responder en tiempo real o flujos de alto volumen donde cada token tiene costo, n8n.
+> 💡 **Tip:** La decisión entre Routines y n8n no es de preferencia sino de caso de uso. Para un resumen diario que requiere síntesis y razonamiento, Routines. Para un bot que debe responder en tiempo real o flujos de alto volumen donde cada token tiene costo, n8n.
 
-> [!NOTE]
-> La API key debe vivir como variable de entorno, nunca hardcodeada en el código. El archivo `.env` con `ANTHROPIC_API_KEY=...` y el módulo `python-dotenv` es el patrón estándar para esto.
+> 📌 **Nota:** La API key debe vivir como variable de entorno, nunca hardcodeada en el código. El archivo `.env` con `ANTHROPIC_API_KEY=...` y el módulo `python-dotenv` es el patrón estándar para esto.
 
 ## 🔗 Ver también
 

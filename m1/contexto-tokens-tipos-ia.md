@@ -51,17 +51,13 @@ Un contexto de 200k tokens = ~154,000 palabras disponibles
 
 ## 📌 Notas y Alertas
 
-> [!WARNING]
-> El contexto no se "limpia" aunque borres mensajes en la interfaz. Lo que el modelo procesa es la conversación completa hasta ese punto. La única forma real de liberar contexto es abrir un chat nuevo.
+> ⚠️ **Advertencia:** El contexto no se "limpia" aunque borres mensajes en la interfaz. Lo que el modelo procesa es la conversación completa hasta ese punto. La única forma real de liberar contexto es abrir un chat nuevo.
 
-> [!IMPORTANT]
-> En español, los textos consumen entre un 15% y un 30% más tokens que el equivalente en inglés. Si el presupuesto de tokens importa (APIs, automatizaciones), escribir prompts en inglés tiene un costo menor. En trabajo cotidiano la diferencia es manejable, pero en sistemas con miles de llamadas al día, suma.
+> 🔴 **Importante:** En español, los textos consumen entre un 15% y un 30% más tokens que el equivalente en inglés. Si el presupuesto de tokens importa (APIs, automatizaciones), escribir prompts en inglés tiene un costo menor. En trabajo cotidiano la diferencia es manejable, pero en sistemas con miles de llamadas al día, suma.
 
-> [!NOTE]
-> La saturación de contexto y las alucinaciones están relacionadas. No son fenómenos independientes: un contexto saturado hace que el modelo ignore sus propias instrucciones de comportamiento y aumente la tasa de errores. Los agentes que se vuelven "raros" al avanzar en una tarea suelen tener este problema, no un bug en el código.
+> 📌 **Nota:** La saturación de contexto y las alucinaciones están relacionadas. No son fenómenos independientes: un contexto saturado hace que el modelo ignore sus propias instrucciones de comportamiento y aumente la tasa de errores. Los agentes que se vuelven "raros" al avanzar en una tarea suelen tener este problema, no un bug en el código.
 
-> [!TIP]
-> Para saber cuántos tokens tiene un texto antes de enviarlo, OpenAI tiene un tokenizer público en `platform.openai.com/tokenizer`. Anthropic tiene el suyo en la documentación de la API. Ambos sirven para calibrar el costo real de tus prompts.
+> 💡 **Tip:** Para saber cuántos tokens tiene un texto antes de enviarlo, OpenAI tiene un tokenizer público en `platform.openai.com/tokenizer`. Anthropic tiene el suyo en la documentación de la API. Ambos sirven para calibrar el costo real de tus prompts.
 
 ---
 

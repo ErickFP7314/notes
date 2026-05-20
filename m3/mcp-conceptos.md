@@ -71,17 +71,13 @@ Lanza una interfaz local en `localhost:5173` donde puedes explorar las herramien
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> El modelo infiere qué herramienta usar desde lenguaje natural — no la seleccionas manualmente. Esto es poderoso pero también significa que herramientas mal nombradas o con descripciones ambiguas pueden invocarse en el momento equivocado. La descripción de cada Tool en el servidor MCP es tan importante como su implementación.
+> 🔴 **Importante:** El modelo infiere qué herramienta usar desde lenguaje natural — no la seleccionas manualmente. Esto es poderoso pero también significa que herramientas mal nombradas o con descripciones ambiguas pueden invocarse en el momento equivocado. La descripción de cada Tool en el servidor MCP es tan importante como su implementación.
 
-> [!WARNING]
-> Configurar MCPs de forma global hace que el agente cargue herramientas de todos los proyectos en cualquier contexto. Un servidor MCP activo puede consumir hasta 10,000 tokens de contexto aunque no se use. Usa `.vscode/mcp.json` por workspace (ver L18) para aislar qué herramientas están disponibles en cada proyecto.
+> ⚠️ **Advertencia:** Configurar MCPs de forma global hace que el agente cargue herramientas de todos los proyectos en cualquier contexto. Un servidor MCP activo puede consumir hasta 10,000 tokens de contexto aunque no se use. Usa `.vscode/mcp.json` por workspace (ver L18) para aislar qué herramientas están disponibles en cada proyecto.
 
-> [!TIP]
-> Para explorar servidores MCP disponibles sin instalar nada: el directorio mcp.so tiene categorías, estrellas de popularidad, y comandos de instalación listos. Es el punto de partida correcto antes de considerar construir uno propio.
+> 💡 **Tip:** Para explorar servidores MCP disponibles sin instalar nada: el directorio mcp.so tiene categorías, estrellas de popularidad, y comandos de instalación listos. Es el punto de partida correcto antes de considerar construir uno propio.
 
-> [!NOTE]
-> HTTP stateless en MCP no es lo mismo que HTTP tradicional. El "stateless" aquí es intencional y estructural — permite que el protocolo funcione con funciones serverless (AWS Lambda, Vercel Functions) donde no hay proceso persistente. Esto es la actualización que habilita MCPs en producción real.
+> 📌 **Nota:** HTTP stateless en MCP no es lo mismo que HTTP tradicional. El "stateless" aquí es intencional y estructural — permite que el protocolo funcione con funciones serverless (AWS Lambda, Vercel Functions) donde no hay proceso persistente. Esto es la actualización que habilita MCPs en producción real.
 
 ## 🔗 Ver también
 

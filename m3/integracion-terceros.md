@@ -95,17 +95,13 @@ TRELLO_TOKEN=...
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> El token de autenticación nunca va en el código fuente. Siempre como variable de entorno. Una API key expuesta en un repositorio público puede ser revocada automáticamente por la plataforma en minutos, pero el daño ya está hecho.
+> 🔴 **Importante:** El token de autenticación nunca va en el código fuente. Siempre como variable de entorno. Una API key expuesta en un repositorio público puede ser revocada automáticamente por la plataforma en minutos, pero el daño ya está hecho.
 
-> [!TIP]
-> Para instalar n8n en VPS con Docker: `docker run -d -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n`. El flag `-v` persiste los flujos fuera del contenedor — sin él, pierdes todo si el contenedor cae.
+> 💡 **Tip:** Para instalar n8n en VPS con Docker: `docker run -d -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n`. El flag `-v` persiste los flujos fuera del contenedor — sin él, pierdes todo si el contenedor cae.
 
-> [!WARNING]
-> n8n y Zapier no son intercambiables. Zapier no permite self-hosting: tus datos pasan por sus servidores siempre. Si manejas datos sensibles de clientes o información confidencial del negocio, n8n self-hosted es la única opción aceptable.
+> ⚠️ **Advertencia:** n8n y Zapier no son intercambiables. Zapier no permite self-hosting: tus datos pasan por sus servidores siempre. Si manejas datos sensibles de clientes o información confidencial del negocio, n8n self-hosted es la única opción aceptable.
 
-> [!NOTE]
-> Los flujos de n8n se exportan como JSON y se pueden versionar en Git. Trata tus automatizaciones como código de producción — con commits, pull requests y rollback si algo falla.
+> 📌 **Nota:** Los flujos de n8n se exportan como JSON y se pueden versionar en Git. Trata tus automatizaciones como código de producción — con commits, pull requests y rollback si algo falla.
 
 ## 🔗 Ver también
 

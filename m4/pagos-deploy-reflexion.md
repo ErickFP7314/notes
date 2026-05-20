@@ -162,17 +162,13 @@ Opción B: registrar empresa en Uruguay
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> El usuario nunca debe completar el pago en tu servidor. Stripe redirige a su propio dominio para el checkout. Este diseño elimina completamente la responsabilidad de manejar datos de tarjetas (cumplimiento PCI) sin que tengas que implementar ninguna seguridad adicional para eso. Construir tu propio formulario de tarjetas es el error más común y costoso.
+> 🔴 **Importante:** El usuario nunca debe completar el pago en tu servidor. Stripe redirige a su propio dominio para el checkout. Este diseño elimina completamente la responsabilidad de manejar datos de tarjetas (cumplimiento PCI) sin que tengas que implementar ninguna seguridad adicional para eso. Construir tu propio formulario de tarjetas es el error más común y costoso.
 
-> [!WARNING]
-> Las variables de entorno de Stripe (especialmente `STRIPE_SECRET_KEY` en producción `sk_live_...`) nunca deben aparecer en el código ni en el repositorio. Si el agente las escribe hardcodeadas, ese es un incidente de seguridad activo. Verifica en el primer deploy que todas las claves vienen de variables de entorno.
+> ⚠️ **Advertencia:** Las variables de entorno de Stripe (especialmente `STRIPE_SECRET_KEY` en producción `sk_live_...`) nunca deben aparecer en el código ni en el repositorio. Si el agente las escribe hardcodeadas, ese es un incidente de seguridad activo. Verifica en el primer deploy que todas las claves vienen de variables de entorno.
 
-> [!NOTE]
-> La ruta Airtm/Takenos no es un workaround temporal — es la infraestructura financiera real que usan decenas de creadores en LatAm con restricciones cambiarias. La tasa de conversión y las comisiones varían; compara ambas plataformas antes de comprometerte con una para un volumen significativo.
+> 📌 **Nota:** La ruta Airtm/Takenos no es un workaround temporal — es la infraestructura financiera real que usan decenas de creadores en LatAm con restricciones cambiarias. La tasa de conversión y las comisiones varían; compara ambas plataformas antes de comprometerte con una para un volumen significativo.
 
-> [!TIP]
-> Los webhooks de Stripe son más confiables que verificar el estado del pago solo en el redirect de éxito. El redirect puede fallar (usuario cierra el navegador, se pierde la conexión). El webhook llega independientemente de lo que haga el usuario después del pago. Diseña toda la lógica post-pago en el handler del webhook, no en la página de éxito.
+> 💡 **Tip:** Los webhooks de Stripe son más confiables que verificar el estado del pago solo en el redirect de éxito. El redirect puede fallar (usuario cierra el navegador, se pierde la conexión). El webhook llega independientemente de lo que haga el usuario después del pago. Diseña toda la lógica post-pago en el handler del webhook, no en la página de éxito.
 
 ---
 

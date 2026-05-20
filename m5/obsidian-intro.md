@@ -81,17 +81,13 @@ git push -u origin main
 
 ## 📌 Notas y Alertas
 
-> [!WARNING]
-> El anti-patrón que destruye el sistema: instalar 20 plugins el primer día porque "todos parecen útiles". El resultado invariable es un sistema tan complejo que nunca terminas de configurar y que abandonas antes de usarlo. Los plugins llegan cuando el sistema los exige — no antes.
+> ⚠️ **Advertencia:** El anti-patrón que destruye el sistema: instalar 20 plugins el primer día porque "todos parecen útiles". El resultado invariable es un sistema tan complejo que nunca terminas de configurar y que abandonas antes de usarlo. Los plugins llegan cuando el sistema los exige — no antes.
 
-> [!IMPORTANT]
-> La vault es solo una carpeta de archivos `.md`. Ningún modelo de IA tiene problemas para leerlos. Esto significa que Claude Code, cualquier agente MCP, o cualquier script Python puede leer y escribir en tu vault sin configuración especial — simplemente apuntando a la carpeta. El grafo visual de Obsidian es útil para ti; la IA no lo necesita.
+> 🔴 **Importante:** La vault es solo una carpeta de archivos `.md`. Ningún modelo de IA tiene problemas para leerlos. Esto significa que Claude Code, cualquier agente MCP, o cualquier script Python puede leer y escribir en tu vault sin configuración especial — simplemente apuntando a la carpeta. El grafo visual de Obsidian es útil para ti; la IA no lo necesita.
 
-> [!TIP]
-> Si ya usas Markdown para documentación técnica (README, wikis, docstrings), la transición a Obsidian no requiere aprender nada nuevo — solo aplicar lo que ya haces en un contexto más estructurado y con backlinks. El costo de adopción para desarrolladores es prácticamente cero.
+> 💡 **Tip:** Si ya usas Markdown para documentación técnica (README, wikis, docstrings), la transición a Obsidian no requiere aprender nada nuevo — solo aplicar lo que ya haces en un contexto más estructurado y con backlinks. El costo de adopción para desarrolladores es prácticamente cero.
 
-> [!NOTE]
-> La sincronización gratuita con iCloud/Google Drive/Dropbox es completamente funcional para uso personal. El plan Obsidian Sync ($10/mes) solo aporta valor si necesitas sincronización end-to-end encrypted o funcionalidades de historial de versiones avanzado dentro de la app. Para la mayoría de los casos de uso, Git + repositorio privado en GitHub es superior en control y completamente gratuito.
+> 📌 **Nota:** La sincronización gratuita con iCloud/Google Drive/Dropbox es completamente funcional para uso personal. El plan Obsidian Sync ($10/mes) solo aporta valor si necesitas sincronización end-to-end encrypted o funcionalidades de historial de versiones avanzado dentro de la app. Para la mayoría de los casos de uso, Git + repositorio privado en GitHub es superior en control y completamente gratuito.
 
 ## 🔗 Ver también
 

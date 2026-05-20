@@ -118,17 +118,13 @@ lo que sea redundante o lo que haya quedado obsoleto."
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> El límite de 1000 tokens para `claude.md` no es una recomendación de estilo — es un límite funcional. Un `claude.md` que se carga al inicio de cada sesión y consume 3000 tokens significa que empiezas cada sesión con el 3% del contexto ya gastado, y con instrucciones que el modelo tiene que procesar completamente antes de cualquier trabajo real. Mantenlo corto y actualizado.
+> 🔴 **Importante:** El límite de 1000 tokens para `claude.md` no es una recomendación de estilo — es un límite funcional. Un `claude.md` que se carga al inicio de cada sesión y consume 3000 tokens significa que empiezas cada sesión con el 3% del contexto ya gastado, y con instrucciones que el modelo tiene que procesar completamente antes de cualquier trabajo real. Mantenlo corto y actualizado.
 
-> [!WARNING]
-> El panel de **Permisos** es la sección que más gente ignora. Por defecto, el agente pide confirmación antes de ejecutar comandos críticos. Apagar esa confirmación prematuramente, antes de entender bien cómo trabaja el agente en tu proyecto, puede resultar en cambios no deseados sin posibilidad de revisión. Activa el modo autónomo gradualmente y solo en tipos de tarea donde ya tienes confianza.
+> ⚠️ **Advertencia:** El panel de **Permisos** es la sección que más gente ignora. Por defecto, el agente pide confirmación antes de ejecutar comandos críticos. Apagar esa confirmación prematuramente, antes de entender bien cómo trabaja el agente en tu proyecto, puede resultar en cambios no deseados sin posibilidad de revisión. Activa el modo autónomo gradualmente y solo en tipos de tarea donde ya tienes confianza.
 
-> [!TIP]
-> Skills de conocimiento vs Skills de proceso es una distinción útil al crear tu primer set de Skills. Empieza con las de conocimiento (lo que el agente no puede saber solo): las convenciones de tu equipo, los patrones de tu codebase, tu guía de estilo. Las de proceso vienen después, cuando ya entiendes cuáles son los flujos repetitivos que vale la pena codificar.
+> 💡 **Tip:** Skills de conocimiento vs Skills de proceso es una distinción útil al crear tu primer set de Skills. Empieza con las de conocimiento (lo que el agente no puede saber solo): las convenciones de tu equipo, los patrones de tu codebase, tu guía de estilo. Las de proceso vienen después, cuando ya entiendes cuáles son los flujos repetitivos que vale la pena codificar.
 
-> [!NOTE]
-> Antigravity es la capa visual sobre Claude Code. Tienen acceso al mismo motor: los mismos modelos, el mismo sistema de `claude.md`, el mismo sistema de Skills. La diferencia es la interfaz. Si en el futuro migras a Claude Code desde terminal, toda tu configuración de Skills y tu `claude.md` migra sin cambios.
+> 📌 **Nota:** Antigravity es la capa visual sobre Claude Code. Tienen acceso al mismo motor: los mismos modelos, el mismo sistema de `claude.md`, el mismo sistema de Skills. La diferencia es la interfaz. Si en el futuro migras a Claude Code desde terminal, toda tu configuración de Skills y tu `claude.md` migra sin cambios.
 
 ---
 

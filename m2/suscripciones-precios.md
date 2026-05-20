@@ -94,17 +94,13 @@ Los planes gratuitos de Claude, Gemini y ChatGPT son suficientes para seguir la 
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> La distinción clave que no es obvia: **Claude Pro** te da acceso al ecosistema completo de Anthropic (Proyectos, Claude Design, memoria persistente en la plataforma). **OpenRouter** te da solo el modelo vía API. Si tu gestión de contexto depende de Proyectos de Claude o del historial de claude.ai, necesitas Claude Pro. Si gestionas todo el contexto localmente (claude.md, Skills, archivos), OpenRouter es suficiente y más barato.
+> 🔴 **Importante:** La distinción clave que no es obvia: **Claude Pro** te da acceso al ecosistema completo de Anthropic (Proyectos, Claude Design, memoria persistente en la plataforma). **OpenRouter** te da solo el modelo vía API. Si tu gestión de contexto depende de Proyectos de Claude o del historial de claude.ai, necesitas Claude Pro. Si gestionas todo el contexto localmente (claude.md, Skills, archivos), OpenRouter es suficiente y más barato.
 
-> [!WARNING]
-> Los créditos de OpenRouter no se renuevan automáticamente. Son pay-as-you-go: cuando los gastas, recargas. Para alguien en fase intensiva de desarrollo esto puede ser más caro que una suscripción mensual. Calcula tu consumo estimado antes de optar por créditos vs suscripción fija.
+> ⚠️ **Advertencia:** Los créditos de OpenRouter no se renuevan automáticamente. Son pay-as-you-go: cuando los gastas, recargas. Para alguien en fase intensiva de desarrollo esto puede ser más caro que una suscripción mensual. Calcula tu consumo estimado antes de optar por créditos vs suscripción fija.
 
-> [!TIP]
-> OpenRouter soporta la API de OpenRouter directamente en OpenCode con `/models`. Desde ahí puedes cambiar entre DeepSeek (muy económico, competitivo en código), Llama 3 (open source, gratuito en muchas plataformas), o Mistral según el costo y la tarea. Un mismo $5 de crédito puede durar más si usas modelos más baratos para trabajo de volumen y reservas los más capaces para razonamiento.
+> 💡 **Tip:** OpenRouter soporta la API de OpenRouter directamente en OpenCode con `/models`. Desde ahí puedes cambiar entre DeepSeek (muy económico, competitivo en código), Llama 3 (open source, gratuito en muchas plataformas), o Mistral según el costo y la tarea. Un mismo $5 de crédito puede durar más si usas modelos más baratos para trabajo de volumen y reservas los más capaces para razonamiento.
 
-> [!NOTE]
-> Google One AI Premium incluye 2 TB de almacenamiento en Google Drive además del acceso a Gemini Advanced. Si ya ibas a pagar por ese almacenamiento, el plan se vuelve prácticamente gratuito como herramienta de IA. Es un dato que cambia el cálculo si eres usuario intensivo del ecosistema Google.
+> 📌 **Nota:** Google One AI Premium incluye 2 TB de almacenamiento en Google Drive además del acceso a Gemini Advanced. Si ya ibas a pagar por ese almacenamiento, el plan se vuelve prácticamente gratuito como herramienta de IA. Es un dato que cambia el cálculo si eres usuario intensivo del ecosistema Google.
 
 ---
 

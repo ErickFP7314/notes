@@ -90,17 +90,13 @@ Cada sesión trabaja en paralelo, en el mismo repositorio, con contexto mínimo 
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> La transición del ecosistema ya está ocurriendo: para un número creciente de desarrolladores, el editor solo se abre para revisar lo que ya hizo la IA. La interfaz principal ya no es el editor — es el agente. Diseñar tu flujo de trabajo asumiendo que el agente es el protagonista (no la asistencia) cambia qué herramientas eliges y cómo las configuras.
+> 🔴 **Importante:** La transición del ecosistema ya está ocurriendo: para un número creciente de desarrolladores, el editor solo se abre para revisar lo que ya hizo la IA. La interfaz principal ya no es el editor — es el agente. Diseñar tu flujo de trabajo asumiendo que el agente es el protagonista (no la asistencia) cambia qué herramientas eliges y cómo las configuras.
 
-> [!WARNING]
-> Antigravity (el agente de entrada del curso) es una interfaz gráfica que integra Claude Code en VS Code. Mismo poder, curva de entrada más amable. Si después decides escalar a terminal pura con Claude Code o migrar a OpenCode, la configuración de Skills y claude.md es transferible — no empiezas desde cero.
+> ⚠️ **Advertencia:** Antigravity (el agente de entrada del curso) es una interfaz gráfica que integra Claude Code en VS Code. Mismo poder, curva de entrada más amable. Si después decides escalar a terminal pura con Claude Code o migrar a OpenCode, la configuración de Skills y claude.md es transferible — no empiezas desde cero.
 
-> [!TIP]
-> La arquitectura multi-agente no requiere herramientas especiales para empezar. Claude Code con Agent View ya permite múltiples sesiones paralelas en el mismo repositorio. La clave es diseñar tareas con contexto mínimo y responsabilidad clara por sesión, no abrir una sola sesión que intente hacer todo.
+> 💡 **Tip:** La arquitectura multi-agente no requiere herramientas especiales para empezar. Claude Code con Agent View ya permite múltiples sesiones paralelas en el mismo repositorio. La clave es diseñar tareas con contexto mínimo y responsabilidad clara por sesión, no abrir una sola sesión que intente hacer todo.
 
-> [!NOTE]
-> LM Studio y Ollama no aparecen en este mapa porque no son agentes: son infraestructura para ejecutar modelos locales que luego se conectan a los agentes. Son la capa por debajo del ecosistema de agentes, no parte de él.
+> 📌 **Nota:** LM Studio y Ollama no aparecen en este mapa porque no son agentes: son infraestructura para ejecutar modelos locales que luego se conectan a los agentes. Son la capa por debajo del ecosistema de agentes, no parte de él.
 
 ---
 

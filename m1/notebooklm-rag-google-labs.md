@@ -85,17 +85,13 @@ Ejemplos de cuadernos bien delimitados:
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> NotebookLM no puede alucinar más allá del perímetro de tus documentos. Esto lo convierte en la única herramienta de IA que es segura para investigación donde citar fuentes incorrectas tiene consecuencias reales (trabajo académico, due diligence, análisis técnico que otros van a usar). La cita clicable no es un detalle de UX — es la verificabilidad que distingue este sistema de los demás.
+> 🔴 **Importante:** NotebookLM no puede alucinar más allá del perímetro de tus documentos. Esto lo convierte en la única herramienta de IA que es segura para investigación donde citar fuentes incorrectas tiene consecuencias reales (trabajo académico, due diligence, análisis técnico que otros van a usar). La cita clicable no es un detalle de UX — es la verificabilidad que distingue este sistema de los demás.
 
-> [!WARNING]
-> El error más común es usar NotebookLM como repositorio general de conocimiento — subir todo lo que tienes en un solo cuaderno. El resultado es que el modelo no sabe qué fuente priorizar para cada pregunta y las respuestas pierden especificidad. Cuadernos enfocados producen respuestas enfocadas. Si tienes muchos temas, crea muchos cuadernos.
+> ⚠️ **Advertencia:** El error más común es usar NotebookLM como repositorio general de conocimiento — subir todo lo que tienes en un solo cuaderno. El resultado es que el modelo no sabe qué fuente priorizar para cada pregunta y las respuestas pierden especificidad. Cuadernos enfocados producen respuestas enfocadas. Si tienes muchos temas, crea muchos cuadernos.
 
-> [!NOTE]
-> NotebookLM acepta URLs de YouTube directamente y transcribe el audio automáticamente. Esto lo convierte en una herramienta extraordinaria para procesar video: conferencias técnicas, tutoriales largos, entrevistas — los subes por URL y puedes hacerle preguntas sobre el contenido sin haber visto el video completo. En contextos de investigación donde hay mucho video y poco tiempo, esto es un multiplicador real.
+> 📌 **Nota:** NotebookLM acepta URLs de YouTube directamente y transcribe el audio automáticamente. Esto lo convierte en una herramienta extraordinaria para procesar video: conferencias técnicas, tutoriales largos, entrevistas — los subes por URL y puedes hacerle preguntas sobre el contenido sin haber visto el video completo. En contextos de investigación donde hay mucho video y poco tiempo, esto es un multiplicador real.
 
-> [!TIP]
-> El podcast de NotebookLM sirve para repasar, no para aprender por primera vez. El flujo óptimo: leer/investigar primero con el panel de conversación, generar el podcast cuando ya entiendes el material, y usarlo para consolidar mientras haces otra cosa. Intentar aprender material completamente nuevo solo con el podcast produce comprensión superficial.
+> 💡 **Tip:** El podcast de NotebookLM sirve para repasar, no para aprender por primera vez. El flujo óptimo: leer/investigar primero con el panel de conversación, generar el podcast cuando ya entiendes el material, y usarlo para consolidar mientras haces otra cosa. Intentar aprender material completamente nuevo solo con el podcast produce comprensión superficial.
 
 ---
 

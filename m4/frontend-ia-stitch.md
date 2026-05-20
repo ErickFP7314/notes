@@ -96,17 +96,13 @@ Genera un reporte markdown con screenshots embebidos.
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> Stitch genera diseño, **no código funcional**. Su output es un `design.md` que describes la interfaz visualmente. Pasar ese archivo a Claude Code es el paso que convierte planos en software. Saltarse ese paso y entregar el Markdown directo al usuario es un error común.
+> 🔴 **Importante:** Stitch genera diseño, **no código funcional**. Su output es un `design.md` que describes la interfaz visualmente. Pasar ese archivo a Claude Code es el paso que convierte planos en software. Saltarse ese paso y entregar el Markdown directo al usuario es un error común.
 
-> [!NOTE]
-> Stitch es experimental y gratuita de Google Labs — esto significa que puede cambiar o desaparecer. Claude Design es el producto oficial de Anthropic con más estabilidad a largo plazo, aunque las preferencias de uso en el flujo de trabajo permanecen.
+> 📌 **Nota:** Stitch es experimental y gratuita de Google Labs — esto significa que puede cambiar o desaparecer. Claude Design es el producto oficial de Anthropic con más estabilidad a largo plazo, aunque las preferencias de uso en el flujo de trabajo permanecen.
 
-> [!TIP]
-> El Live Mode de Stitch permite dictar cambios por voz. Para iteraciones rápidas de diseño donde quieres explorar variaciones sin escribir, dictar "hazlo más minimalista, elimina el sidebar, pon el CTA más grande" es significativamente más rápido que redactar el prompt.
+> 💡 **Tip:** El Live Mode de Stitch permite dictar cambios por voz. Para iteraciones rápidas de diseño donde quieres explorar variaciones sin escribir, dictar "hazlo más minimalista, elimina el sidebar, pon el CTA más grande" es significativamente más rápido que redactar el prompt.
 
-> [!WARNING]
-> El MCP de Playwright requiere que el servidor de desarrollo esté corriendo en local antes de que el agente pueda navegar. Si el agente reporta que no puede conectarse, verifica primero que `localhost:3000` (o el puerto configurado) está activo.
+> ⚠️ **Advertencia:** El MCP de Playwright requiere que el servidor de desarrollo esté corriendo en local antes de que el agente pueda navegar. Si el agente reporta que no puede conectarse, verifica primero que `localhost:3000` (o el puerto configurado) está activo.
 
 ---
 

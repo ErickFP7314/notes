@@ -101,17 +101,13 @@ docker logs -f <container_id>
 
 ## 📌 Notas y Alertas
 
-> [!WARNING]
-> El diseño de base de datos es la decisión más costosa de cambiar después del lanzamiento. Una tabla mal diseñada puede generar meses de deuda técnica. Deja que el agente te ayude a pensar el schema, pero aprueba tú el modelo de datos antes de que empiece a construir.
+> ⚠️ **Advertencia:** El diseño de base de datos es la decisión más costosa de cambiar después del lanzamiento. Una tabla mal diseñada puede generar meses de deuda técnica. Deja que el agente te ayude a pensar el schema, pero aprueba tú el modelo de datos antes de que empiece a construir.
 
-> [!IMPORTANT]
-> La vulnerabilidad más común en apps construidas rápidamente con IA es la falla en autenticación/autorización. Sin la verificación de roles correcta, cualquier usuario puede leer datos de cualquier otro. Pide al agente que incluya tests de autorización explícitos, no solo tests de funcionalidad.
+> 🔴 **Importante:** La vulnerabilidad más común en apps construidas rápidamente con IA es la falla en autenticación/autorización. Sin la verificación de roles correcta, cualquier usuario puede leer datos de cualquier otro. Pide al agente que incluya tests de autorización explícitos, no solo tests de funcionalidad.
 
-> [!NOTE]
-> Las variables de entorno nunca deben vivir dentro del código. Cuando el agente escribe código que incluye claves API literales ("sk_live_..."), eso es una vulnerabilidad activa. Revisa siempre que las credenciales vengan de `process.env` o equivalente.
+> 📌 **Nota:** Las variables de entorno nunca deben vivir dentro del código. Cuando el agente escribe código que incluye claves API literales ("sk_live_..."), eso es una vulnerabilidad activa. Revisa siempre que las credenciales vengan de `process.env` o equivalente.
 
-> [!TIP]
-> Antes de pedir al agente que construya cualquier cosa, dale el diseño de base de datos aprobado y una lista de los endpoints que necesitas. Con esa información puede construir de forma coherente en lugar de inventar la arquitectura en el proceso.
+> 💡 **Tip:** Antes de pedir al agente que construya cualquier cosa, dale el diseño de base de datos aprobado y una lista de los endpoints que necesitas. Con esa información puede construir de forma coherente en lugar de inventar la arquitectura en el proceso.
 
 ---
 

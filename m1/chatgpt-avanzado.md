@@ -79,17 +79,13 @@ Usa bloques de código con el lenguaje especificado.
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> El rol en el prompt no es decorativo. El modelo no "actúa" como un experto — accede a los patrones estadísticos que corresponden a ese perfil en sus datos de entrenamiento. Un prompt sin rol activa el promedio de todos los perfiles posibles, que es precisamente lo que produce respuestas genéricas.
+> 🔴 **Importante:** El rol en el prompt no es decorativo. El modelo no "actúa" como un experto — accede a los patrones estadísticos que corresponden a ese perfil en sus datos de entrenamiento. Un prompt sin rol activa el promedio de todos los perfiles posibles, que es precisamente lo que produce respuestas genéricas.
 
-> [!WARNING]
-> Los GPTs personalizados de la tienda de ChatGPT tienen acceso a instrucciones y archivos que el creador configura pero que el usuario no puede ver. Si usas un GPT de terceros para procesar información confidencial, esa información puede estar siendo enviada a sistemas externos vía "acciones" configuradas en el GPT. Para trabajo sensible, usa ChatGPT estándar sin GPTs de terceros.
+> ⚠️ **Advertencia:** Los GPTs personalizados de la tienda de ChatGPT tienen acceso a instrucciones y archivos que el creador configura pero que el usuario no puede ver. Si usas un GPT de terceros para procesar información confidencial, esa información puede estar siendo enviada a sistemas externos vía "acciones" configuradas en el GPT. Para trabajo sensible, usa ChatGPT estándar sin GPTs de terceros.
 
-> [!TIP]
-> El modo voz de la app de ChatGPT en iOS/Android tiene calidad suficiente para pensar en voz alta sobre un problema técnico mientras caminas o estás en movimiento. No es solo dictado — el modelo responde con la misma calidad que en texto y mantiene el hilo de la conversación.
+> 💡 **Tip:** El modo voz de la app de ChatGPT en iOS/Android tiene calidad suficiente para pensar en voz alta sobre un problema técnico mientras caminas o estás en movimiento. No es solo dictado — el modelo responde con la misma calidad que en texto y mantiene el hilo de la conversación.
 
-> [!NOTE]
-> "¿Hay algo en lo que acabas de decir que debería verificar de forma independiente?" es una de las preguntas más útiles que se le pueden hacer a un LLM después de una respuesta larga. No garantiza que encuentre todos los errores, pero activa un tipo de revisión interna que a veces captura afirmaciones que el modelo generó por inercia estadística más que por conocimiento sólido.
+> 📌 **Nota:** "¿Hay algo en lo que acabas de decir que debería verificar de forma independiente?" es una de las preguntas más útiles que se le pueden hacer a un LLM después de una respuesta larga. No garantiza que encuentre todos los errores, pero activa un tipo de revisión interna que a veces captura afirmaciones que el modelo generó por inercia estadística más que por conocimiento sólido.
 
 ---
 

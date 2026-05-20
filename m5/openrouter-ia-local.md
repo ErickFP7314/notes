@@ -121,17 +121,13 @@ ollama show qwen2.5:7b --verbose
 
 ## 📌 Notas y Alertas
 
-> [!WARNING]
-> El free models router de OpenRouter no es un modelo — es un enrutador que selecciona dinámicamente entre modelos gratuitos disponibles. Si configuras un modelo gratuito específico (ej. `meta-llama/llama-3.1-8b-instruct:free`) en lugar del router, experimentarás errores de rate limit frecuentes cuando ese modelo tenga alta demanda global. Siempre usar `openrouter/auto` o el free router equivalente.
+> ⚠️ **Advertencia:** El free models router de OpenRouter no es un modelo — es un enrutador que selecciona dinámicamente entre modelos gratuitos disponibles. Si configuras un modelo gratuito específico (ej. `meta-llama/llama-3.1-8b-instruct:free`) en lugar del router, experimentarás errores de rate limit frecuentes cuando ese modelo tenga alta demanda global. Siempre usar `openrouter/auto` o el free router equivalente.
 
-> [!IMPORTANT]
-> Los modelos gratuitos de OpenRouter son gratuitos porque los datos se pueden usar para entrenamiento futuro. Esta no es letra pequeña — es el modelo de negocio explícito. Para código de proyectos personales y experimentación no hay problema. Para secrets de empresa, datos de clientes, o información sensible, usar Ollama local obligatoriamente. La distinción no es sobre calidad de modelo sino sobre a quién le pertenecen los datos que envías.
+> 🔴 **Importante:** Los modelos gratuitos de OpenRouter son gratuitos porque los datos se pueden usar para entrenamiento futuro. Esta no es letra pequeña — es el modelo de negocio explícito. Para código de proyectos personales y experimentación no hay problema. Para secrets de empresa, datos de clientes, o información sensible, usar Ollama local obligatoriamente. La distinción no es sobre calidad de modelo sino sobre a quién le pertenecen los datos que envías.
 
-> [!TIP]
-> La cuantización `Q4_K_M` es el sweet spot para hardware estándar. `Q4` (sin el `_K_M`) es más agresiva y pierde más calidad. `Q8` es casi sin pérdida pero requiere casi el doble de RAM. Para la mayoría de los casos de uso con 8 GB de RAM, `Q4_K_M` con un modelo de 7B parámetros ofrece una relación calidad/recurso óptima. Puedes verificar compatibilidad antes de descargar en LM Studio sin necesidad de hacer el download primero.
+> 💡 **Tip:** La cuantización `Q4_K_M` es el sweet spot para hardware estándar. `Q4` (sin el `_K_M`) es más agresiva y pierde más calidad. `Q8` es casi sin pérdida pero requiere casi el doble de RAM. Para la mayoría de los casos de uso con 8 GB de RAM, `Q4_K_M` con un modelo de 7B parámetros ofrece una relación calidad/recurso óptima. Puedes verificar compatibilidad antes de descargar en LM Studio sin necesidad de hacer el download primero.
 
-> [!NOTE]
-> El requisito de $10 de saldo en OpenRouter para acceder a modelos gratuitos no es un bug ni una práctica oscura — es una medida anti-abuso para evitar que cuentas sin saldo saturen el sistema con peticiones gratuitas ilimitadas. El saldo permanece intacto mientras solo uses modelos gratuitos. Si en algún momento el saldo cae por debajo del umbral (porque usaste modelos de pago), el acceso a gratuitos se suspende temporalmente hasta que recargues.
+> 📌 **Nota:** El requisito de $10 de saldo en OpenRouter para acceder a modelos gratuitos no es un bug ni una práctica oscura — es una medida anti-abuso para evitar que cuentas sin saldo saturen el sistema con peticiones gratuitas ilimitadas. El saldo permanece intacto mientras solo uses modelos gratuitos. Si en algún momento el saldo cae por debajo del umbral (porque usaste modelos de pago), el acceso a gratuitos se suspende temporalmente hasta que recargues.
 
 ## 🔗 Ver también
 

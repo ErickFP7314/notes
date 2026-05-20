@@ -78,17 +78,13 @@ n8n import:workflow --input=./backups/workflows.json
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> La elección de modelo dentro del flujo de n8n tiene impacto económico directo. En un flujo de soporte que procesa 200 emails/día, la diferencia entre Haiku y Sonnet es aproximadamente 10x en costo por token. Usa el modelo más capaz solo donde el razonamiento complejo es necesario — síntesis, decisiones ambiguas. Para clasificación estructurada, Haiku es la respuesta correcta.
+> 🔴 **Importante:** La elección de modelo dentro del flujo de n8n tiene impacto económico directo. En un flujo de soporte que procesa 200 emails/día, la diferencia entre Haiku y Sonnet es aproximadamente 10x en costo por token. Usa el modelo más capaz solo donde el razonamiento complejo es necesario — síntesis, decisiones ambiguas. Para clasificación estructurada, Haiku es la respuesta correcta.
 
-> [!WARNING]
-> n8n sin `-v` en Docker pierde todos los flujos si el contenedor se reinicia o actualiza. El volumen no es opcional en producción. También: exponer el puerto 5678 sin autenticación en un VPS público es un riesgo de seguridad real — configura Basic Auth o un reverse proxy con HTTPS desde el primer día.
+> ⚠️ **Advertencia:** n8n sin `-v` en Docker pierde todos los flujos si el contenedor se reinicia o actualiza. El volumen no es opcional en producción. También: exponer el puerto 5678 sin autenticación en un VPS público es un riesgo de seguridad real — configura Basic Auth o un reverse proxy con HTTPS desde el primer día.
 
-> [!TIP]
-> El repositorio oficial de la comunidad n8n en GitHub tiene cientos de flujos listos para importar. Busca por caso de uso antes de construir desde cero. El tiempo de construcción pasa de horas a minutos cuando partes de algo que ya funciona.
+> 💡 **Tip:** El repositorio oficial de la comunidad n8n en GitHub tiene cientos de flujos listos para importar. Busca por caso de uso antes de construir desde cero. El tiempo de construcción pasa de horas a minutos cuando partes de algo que ya funciona.
 
-> [!NOTE]
-> Un script Python puede llamar a un webhook de n8n, que dispara un flujo que a su vez llama de vuelta a Claude. La integración bidireccional entre código y flujos visuales no es un antipatrón — es la arquitectura correcta cuando cada parte hace lo que mejor hace.
+> 📌 **Nota:** Un script Python puede llamar a un webhook de n8n, que dispara un flujo que a su vez llama de vuelta a Claude. La integración bidireccional entre código y flujos visuales no es un antipatrón — es la arquitectura correcta cuando cada parte hace lo que mejor hace.
 
 ## 🔗 Ver también
 

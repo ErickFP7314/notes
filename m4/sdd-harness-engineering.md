@@ -128,17 +128,13 @@ No implementes nada todavía. Solo pregunta.
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> El vibe coding funciona para demos. Para proyectos reales que deben crecer y mantenerse, el harness es lo que hace la diferencia entre un agente que entrega y uno que produce desastres de nueve dólares por sesión. Construir sin harness es posible — hasta el punto donde ya no lo es.
+> 🔴 **Importante:** El vibe coding funciona para demos. Para proyectos reales que deben crecer y mantenerse, el harness es lo que hace la diferencia entre un agente que entrega y uno que produce desastres de nueve dólares por sesión. Construir sin harness es posible — hasta el punto donde ya no lo es.
 
-> [!WARNING]
-> Más instrucciones en el `claude.md` no es siempre mejor. El Principio de Sustracción dice que la sobre-ingeniería del harness degrada el rendimiento porque añade ruido al contexto. Revisa periódicamente qué reglas siguen siendo necesarias y elimina las que el modelo ya respeta de forma inherente.
+> ⚠️ **Advertencia:** Más instrucciones en el `claude.md` no es siempre mejor. El Principio de Sustracción dice que la sobre-ingeniería del harness degrada el rendimiento porque añade ruido al contexto. Revisa periódicamente qué reglas siguen siendo necesarias y elimina las que el modelo ya respeta de forma inherente.
 
-> [!NOTE]
-> La fase de Clarificación en SDD es donde más valor oculto hay. Cuando el agente pregunta "¿qué pasa cuando el usuario cancela su suscripción antes del próximo ciclo de facturación?", te está haciendo pensar en un caso edge que hubieras descubierto en producción — con usuarios reales y dinero real sobre la mesa.
+> 📌 **Nota:** La fase de Clarificación en SDD es donde más valor oculto hay. Cuando el agente pregunta "¿qué pasa cuando el usuario cancela su suscripción antes del próximo ciclo de facturación?", te está haciendo pensar en un caso edge que hubieras descubierto en producción — con usuarios reales y dinero real sobre la mesa.
 
-> [!TIP]
-> NotebookLM como herramienta de validación de specs no es obvia. El cambio de medio (de leer a escuchar) activa una percepción diferente del documento. Los creadores que usan este paso reportan encontrar entre 3 y 7 ambigüedades importantes por documento que no habían detectado leyendo.
+> 💡 **Tip:** NotebookLM como herramienta de validación de specs no es obvia. El cambio de medio (de leer a escuchar) activa una percepción diferente del documento. Los creadores que usan este paso reportan encontrar entre 3 y 7 ambigüedades importantes por documento que no habían detectado leyendo.
 
 ---
 

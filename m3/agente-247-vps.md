@@ -124,17 +124,13 @@ journalctl -u openclaw -f  # ver logs en tiempo real
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> La restricción `allow from <tu_usuario_de_telegram>` es la barrera de acceso principal al agente. Sin ella, cualquier persona que descubra el username del bot puede darle instrucciones. No es opcional — es la primera configuración a verificar antes de darle al agente acceso a credenciales reales.
+> 🔴 **Importante:** La restricción `allow from <tu_usuario_de_telegram>` es la barrera de acceso principal al agente. Sin ella, cualquier persona que descubra el username del bot puede darle instrucciones. No es opcional — es la primera configuración a verificar antes de darle al agente acceso a credenciales reales.
 
-> [!WARNING]
-> La identidad separada (capa 3) no es solo buena práctica — es necesaria para auditoría. Si el agente comete un error grave en producción (borrar datos, romper un build, exponer algo), necesitas poder distinguir en el historial qué fue el agente y qué fuiste tú. Sin identidad separada, esa distinción no existe.
+> ⚠️ **Advertencia:** La identidad separada (capa 3) no es solo buena práctica — es necesaria para auditoría. Si el agente comete un error grave en producción (borrar datos, romper un build, exponer algo), necesitas poder distinguir en el historial qué fue el agente y qué fuiste tú. Sin identidad separada, esa distinción no existe.
 
-> [!TIP]
-> Empieza con Pi antes de OpenClaw en producción. Pi sin skills activas te enseña exactamente cómo el agente procesa instrucciones, dónde necesita contexto adicional, y cómo responde a casos límite — sin el riesgo de que cometa errores con acceso real a tus repos. Es la versión de prueba del protocolo.
+> 💡 **Tip:** Empieza con Pi antes de OpenClaw en producción. Pi sin skills activas te enseña exactamente cómo el agente procesa instrucciones, dónde necesita contexto adicional, y cómo responde a casos límite — sin el riesgo de que cometa errores con acceso real a tus repos. Es la versión de prueba del protocolo.
 
-> [!NOTE]
-> El `agents.md` con reglas en lenguaje natural (capa 1) no es una medida de seguridad técnica — es una medida de comportamiento. El modelo las sigue porque forman parte de su contexto, pero un modelo malicioso o con un jailbreak podría ignorarlas. Las capas 2, 3 y 4 (workspace aislado, identidad separada, permisos mínimos) son las que tienen enforcement técnico real. Las cuatro capas son necesarias juntas.
+> 📌 **Nota:** El `agents.md` con reglas en lenguaje natural (capa 1) no es una medida de seguridad técnica — es una medida de comportamiento. El modelo las sigue porque forman parte de su contexto, pero un modelo malicioso o con un jailbreak podría ignorarlas. Las capas 2, 3 y 4 (workspace aislado, identidad separada, permisos mínimos) son las que tienen enforcement técnico real. Las cuatro capas son necesarias juntas.
 
 ## 🔗 Ver también
 

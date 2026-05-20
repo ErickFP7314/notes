@@ -146,17 +146,13 @@ Selecciona la mejor solución sin revisión manual de cada iteración.
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> La reducción de 70x en tokens que logra Graphify no es solo un ahorro por sesión — es acumulativa. En sesiones largas con múltiples consultas, el agente que trabaja desde el grafo no repite lecturas de archivos ya procesados. La curva de ahorro crece con la duración del proyecto y el tamaño del codebase.
+> 🔴 **Importante:** La reducción de 70x en tokens que logra Graphify no es solo un ahorro por sesión — es acumulativa. En sesiones largas con múltiples consultas, el agente que trabaja desde el grafo no repite lecturas de archivos ya procesados. La curva de ahorro crece con la duración del proyecto y el tamaño del codebase.
 
-> [!NOTE]
-> Tree-sitter (el primer paso de Graphify) es completamente gratuito y determinista — no usa tokens de LLM. El costo de los subagentes Claude en el tercer paso es una inversión única: el graph_report.md generado se reutiliza en todas las sesiones siguientes.
+> 📌 **Nota:** Tree-sitter (el primer paso de Graphify) es completamente gratuito y determinista — no usa tokens de LLM. El costo de los subagentes Claude en el tercer paso es una inversión única: el graph_report.md generado se reutiliza en todas las sesiones siguientes.
 
-> [!TIP]
-> La startup no es un proyecto monolítico — es un sistema de agentes trabajando en paralelo sobre capas distintas, coordinados por un orquestador que usa la documentación SDD como fuente de verdad. Si algo no está en la documentación SDD, el orquestador no tiene criterio para decidir. Por eso la documentación primero es la regla de oro.
+> 💡 **Tip:** La startup no es un proyecto monolítico — es un sistema de agentes trabajando en paralelo sobre capas distintas, coordinados por un orquestador que usa la documentación SDD como fuente de verdad. Si algo no está en la documentación SDD, el orquestador no tiene criterio para decidir. Por eso la documentación primero es la regla de oro.
 
-> [!WARNING]
-> El MCP de n8n requiere que tengas una instancia de n8n corriendo (local o cloud) y la URL de la API configurada. Sin la instancia activa, el agente puede diseñar el workflow correctamente pero no puede crearlo. Verifica la conectividad antes de delegar la tarea.
+> ⚠️ **Advertencia:** El MCP de n8n requiere que tengas una instancia de n8n corriendo (local o cloud) y la URL de la API configurada. Sin la instancia activa, el agente puede diseñar el workflow correctamente pero no puede crearlo. Verifica la conectividad antes de delegar la tarea.
 
 ---
 

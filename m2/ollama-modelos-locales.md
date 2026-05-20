@@ -114,17 +114,13 @@ Tarea privada (datos sensibles, código propietario):
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> Ollama expone los modelos en `localhost:11434` con una API compatible con el formato de OpenAI. Esto significa que **cualquier herramienta que acepte una URL de API personalizada** puede conectarse a Ollama — no solo Antigravity. OpenCode, LM Studio, y la mayoría de clientes de LLM lo soportan. Una sola instalación de Ollama sirve a todo tu stack.
+> 🔴 **Importante:** Ollama expone los modelos en `localhost:11434` con una API compatible con el formato de OpenAI. Esto significa que **cualquier herramienta que acepte una URL de API personalizada** puede conectarse a Ollama — no solo Antigravity. OpenCode, LM Studio, y la mayoría de clientes de LLM lo soportan. Una sola instalación de Ollama sirve a todo tu stack.
 
-> [!WARNING]
-> Los modelos locales son menos capaces que los grandes modelos en la nube, y la diferencia de calidad **es notable** para tareas complejas. El error común es intentar usar un modelo local de 4B parámetros para diseño arquitectónico o debugging difícil porque "gratis es mejor". Para esas tareas, la diferencia de calidad cuesta más cara que el token de Claude.
+> ⚠️ **Advertencia:** Los modelos locales son menos capaces que los grandes modelos en la nube, y la diferencia de calidad **es notable** para tareas complejas. El error común es intentar usar un modelo local de 4B parámetros para diseño arquitectónico o debugging difícil porque "gratis es mejor". Para esas tareas, la diferencia de calidad cuesta más cara que el token de Claude.
 
-> [!TIP]
-> Antes de descargar un modelo con Ollama, ábrelo en LM Studio primero: busca el modelo, ve los requisitos de hardware, y verifica que tu máquina puede correrlo. Solo entonces usa `ollama pull`. Evita descargar modelos de 7B+ si tu máquina tiene menos de 8 GB de RAM disponible.
+> 💡 **Tip:** Antes de descargar un modelo con Ollama, ábrelo en LM Studio primero: busca el modelo, ve los requisitos de hardware, y verifica que tu máquina puede correrlo. Solo entonces usa `ollama pull`. Evita descargar modelos de 7B+ si tu máquina tiene menos de 8 GB de RAM disponible.
 
-> [!NOTE]
-> El comando `ollama run nombre-modelo` inicia una sesión de chat directa en terminal. Es útil para probar el modelo rápidamente antes de conectarlo al agente. Pero el flujo de trabajo real siempre va a pasar por el agente (Antigravity, OpenCode, etc.) — usar Ollama directamente es para exploración, no para producción.
+> 📌 **Nota:** El comando `ollama run nombre-modelo` inicia una sesión de chat directa en terminal. Es útil para probar el modelo rápidamente antes de conectarlo al agente. Pero el flujo de trabajo real siempre va a pasar por el agente (Antigravity, OpenCode, etc.) — usar Ollama directamente es para exploración, no para producción.
 
 ---
 

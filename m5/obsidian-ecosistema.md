@@ -129,17 +129,13 @@ pip install graphify
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> El Índice centralizado no es una conveniencia — es el componente que hace sostenible el sistema a escala. Sin Índice, el agente tokeniza todos los archivos para responder cada consulta (costoso y lento). Con Índice bien estructurado, navega directamente a los archivos relevantes. La diferencia reportada es hasta 95% menos tokens por consulta. Mantener el Índice actualizado es la tarea de mantenimiento más importante del sistema.
+> 🔴 **Importante:** El Índice centralizado no es una conveniencia — es el componente que hace sostenible el sistema a escala. Sin Índice, el agente tokeniza todos los archivos para responder cada consulta (costoso y lento). Con Índice bien estructurado, navega directamente a los archivos relevantes. La diferencia reportada es hasta 95% menos tokens por consulta. Mantener el Índice actualizado es la tarea de mantenimiento más importante del sistema.
 
-> [!WARNING]
-> El grafo visual de Obsidian (Graph View) es para el usuario humano, no para la IA. Si diseñas tu sistema pensando en "qué ve el agente en el grafo", estás construyendo sobre una premisa falsa. El agente lee texto plano en archivos `.md`. El grafo es consecuencia de los backlinks, no una estructura que el agente navega.
+> ⚠️ **Advertencia:** El grafo visual de Obsidian (Graph View) es para el usuario humano, no para la IA. Si diseñas tu sistema pensando en "qué ve el agente en el grafo", estás construyendo sobre una premisa falsa. El agente lee texto plano en archivos `.md`. El grafo es consecuencia de los backlinks, no una estructura que el agente navega.
 
-> [!TIP]
-> `obsidian.nvim` habilita todas las funciones nativas de Obsidian dentro de Neovim: crear notas, insertar plantillas, navegar backlinks — sin salir del editor. Si vives en la terminal, elimina completamente el context switching de tener que cambiar de aplicación para gestionar la vault. La vault sigue siendo la misma carpeta, solo cambia el frontend.
+> 💡 **Tip:** `obsidian.nvim` habilita todas las funciones nativas de Obsidian dentro de Neovim: crear notas, insertar plantillas, navegar backlinks — sin salir del editor. Si vives en la terminal, elimina completamente el context switching de tener que cambiar de aplicación para gestionar la vault. La vault sigue siendo la misma carpeta, solo cambia el frontend.
 
-> [!NOTE]
-> Graphify + MCP de Obsidian está justificado cuando el volumen de datos es grande y heterogéneo (transcripciones de llamadas, videos, PDFs masivos). Para uso personal con cientos de notas, la arquitectura de tres capas o la nativa de VS Code son más que suficientes y tienen cero overhead de configuración. No sobre-ingenierices el sistema desde el inicio.
+> 📌 **Nota:** Graphify + MCP de Obsidian está justificado cuando el volumen de datos es grande y heterogéneo (transcripciones de llamadas, videos, PDFs masivos). Para uso personal con cientos de notas, la arquitectura de tres capas o la nativa de VS Code son más que suficientes y tienen cero overhead de configuración. No sobre-ingenierices el sistema desde el inicio.
 
 ## 🔗 Ver también
 

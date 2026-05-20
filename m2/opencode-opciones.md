@@ -123,17 +123,13 @@ workspace/
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> La separación **Plan Mode / Build Mode es más explícita en OpenCode que en Claude Code**. En OpenCode, son dos modos con cambio visual claro. Esto reduce el riesgo de que el agente empiece a implementar antes de que hayas validado el plan. Si en Claude Code te pasa que el agente "se adelanta" a escribir código, considera que en OpenCode ese comportamiento está más controlado estructuralmente.
+> 🔴 **Importante:** La separación **Plan Mode / Build Mode es más explícita en OpenCode que en Claude Code**. En OpenCode, son dos modos con cambio visual claro. Esto reduce el riesgo de que el agente empiece a implementar antes de que hayas validado el plan. Si en Claude Code te pasa que el agente "se adelanta" a escribir código, considera que en OpenCode ese comportamiento está más controlado estructuralmente.
 
-> [!WARNING]
-> OpenClaw (versión cloud/servidor) no es lo mismo que OpenCode (cliente de terminal). Son dos productos de la misma familia. OpenCode es para tu máquina. OpenClaw es para servidores autónomos. El heartbeat, la proactividad y la comunicación por Telegram/Discord son características de OpenClaw, no del cliente de terminal. No esperes esas funcionalidades si instalas OpenCode localmente.
+> ⚠️ **Advertencia:** OpenClaw (versión cloud/servidor) no es lo mismo que OpenCode (cliente de terminal). Son dos productos de la misma familia. OpenCode es para tu máquina. OpenClaw es para servidores autónomos. El heartbeat, la proactividad y la comunicación por Telegram/Discord son características de OpenClaw, no del cliente de terminal. No esperes esas funcionalidades si instalas OpenCode localmente.
 
-> [!TIP]
-> OpenRouter como proveedor en OpenCode es la combinación más flexible para alguien en fase de aprendizaje: $5 de crédito, acceso a múltiples modelos, y sin estar atado a ningún proveedor. Configura OpenRouter como proveedor principal en OpenCode, usa modelos baratos (DeepSeek, Llama) para exploración, y cambia a Claude Sonnet via OpenRouter solo para las tareas que lo justifican.
+> 💡 **Tip:** OpenRouter como proveedor en OpenCode es la combinación más flexible para alguien en fase de aprendizaje: $5 de crédito, acceso a múltiples modelos, y sin estar atado a ningún proveedor. Configura OpenRouter como proveedor principal en OpenCode, usa modelos baratos (DeepSeek, Llama) para exploración, y cambia a Claude Sonnet via OpenRouter solo para las tareas que lo justifican.
 
-> [!NOTE]
-> La arquitectura de archivos de OpenClaw (`soul.md`, `agents.md`, `user.md`) es conceptualmente idéntica al sistema de `claude.md` + Skills de Claude Code/Antigravity. La diferencia es la granularidad: OpenClaw separa en múltiples archivos lo que Claude Code consolida en `claude.md`. El principio subyacente es el mismo: el repositorio de texto plano es la memoria y las instrucciones del agente.
+> 📌 **Nota:** La arquitectura de archivos de OpenClaw (`soul.md`, `agents.md`, `user.md`) es conceptualmente idéntica al sistema de `claude.md` + Skills de Claude Code/Antigravity. La diferencia es la granularidad: OpenClaw separa en múltiples archivos lo que Claude Code consolida en `claude.md`. El principio subyacente es el mismo: el repositorio de texto plano es la memoria y las instrucciones del agente.
 
 ---
 

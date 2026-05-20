@@ -100,17 +100,13 @@ Devuelve un informe con los hallazgos y las correcciones propuestas."
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> La calidad del `index.md` determina la calidad de las respuestas del bot, independientemente del modelo que uses. Un índice con categorías vagas y enlaces incorrectos produce respuestas confusas incluso con Claude Opus. Invertir tiempo en el índice es invertir en la precisión del sistema completo.
+> 🔴 **Importante:** La calidad del `index.md` determina la calidad de las respuestas del bot, independientemente del modelo que uses. Un índice con categorías vagas y enlaces incorrectos produce respuestas confusas incluso con Claude Opus. Invertir tiempo en el índice es invertir en la precisión del sistema completo.
 
-> [!WARNING]
-> RAG vectorial tiene un costo operativo continuo que muchos subestiman: generar embeddings cuando los documentos cambian, mantener la base de datos vectorial actualizada, pagar por almacenamiento y consultas. Para la mayoría de los casos de uso reales, ese costo no está justificado por los beneficios. El LLM Wiki no tiene ese costo.
+> ⚠️ **Advertencia:** RAG vectorial tiene un costo operativo continuo que muchos subestiman: generar embeddings cuando los documentos cambian, mantener la base de datos vectorial actualizada, pagar por almacenamiento y consultas. Para la mayoría de los casos de uso reales, ese costo no está justificado por los beneficios. El LLM Wiki no tiene ese costo.
 
-> [!TIP]
-> El proceso de lint no es opcional — es lo que mantiene el sistema sano a medida que crece. Sin lint periódico, las páginas huérfanas se acumulan, las inconsistencias se multiplican, y el índice pierde precisión. Programa el lint mensualmente desde el principio como parte del mantenimiento del sistema.
+> 💡 **Tip:** El proceso de lint no es opcional — es lo que mantiene el sistema sano a medida que crece. Sin lint periódico, las páginas huérfanas se acumulan, las inconsistencias se multiplican, y el índice pierde precisión. Programa el lint mensualmente desde el principio como parte del mantenimiento del sistema.
 
-> [!NOTE]
-> WhatsApp Business API requiere aprobación de Meta y tiene costos por mensaje. Para prototipado y uso personal, Telegram es más rápido de configurar (API pública, gratuita) y tiene mejor soporte en n8n. WhatsApp es la interfaz final para usuarios — Telegram es la interfaz correcta para prototipar.
+> 📌 **Nota:** WhatsApp Business API requiere aprobación de Meta y tiene costos por mensaje. Para prototipado y uso personal, Telegram es más rápido de configurar (API pública, gratuita) y tiene mejor soporte en n8n. WhatsApp es la interfaz final para usuarios — Telegram es la interfaz correcta para prototipar.
 
 ## 🔗 Ver también
 

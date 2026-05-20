@@ -152,17 +152,13 @@ Proceso:
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> El Bulk Ingest no es un proceso de una sola vez — es el mecanismo de incorporación inicial. La mayoría de las empresas que implementan este sistema tienen años de conocimiento disperso en cientos de archivos. Bulk Ingest convierte ese caos en sistema estructurado en una sesión de trabajo, sin hacerlo archivo por archivo manualmente. Ejecutarlo primero sobre el conocimiento histórico más valioso (decisiones de producto, contexto de clientes clave) y expandir desde ahí.
+> 🔴 **Importante:** El Bulk Ingest no es un proceso de una sola vez — es el mecanismo de incorporación inicial. La mayoría de las empresas que implementan este sistema tienen años de conocimiento disperso en cientos de archivos. Bulk Ingest convierte ese caos en sistema estructurado en una sesión de trabajo, sin hacerlo archivo por archivo manualmente. Ejecutarlo primero sobre el conocimiento histórico más valioso (decisiones de producto, contexto de clientes clave) y expandir desde ahí.
 
-> [!WARNING]
-> Las notas de "Procesos" son el dominio que se desactualiza más rápido. Un proceso documentado hace seis meses puede no reflejar cómo se hace realmente hoy. Por eso el Lint mensual tiene una verificación específica para procesos sin actualizaciones recientes. Un sistema con procesos desactualizados es peor que no tener sistema: genera confianza falsa en información incorrecta.
+> ⚠️ **Advertencia:** Las notas de "Procesos" son el dominio que se desactualiza más rápido. Un proceso documentado hace seis meses puede no reflejar cómo se hace realmente hoy. Por eso el Lint mensual tiene una verificación específica para procesos sin actualizaciones recientes. Un sistema con procesos desactualizados es peor que no tener sistema: genera confianza falsa en información incorrecta.
 
-> [!TIP]
-> La forma más rápida de poblar el sistema con conocimiento tácito real (el que vive en las cabezas) es hacer entrevistas estructuradas con los miembros del equipo y transcribirlas directamente a /Raw/. Una sesión de 30 minutos con la persona que lleva más tiempo en la empresa puede generar más conocimiento operativo real que meses de documentación formal. El agente procesa la transcripción y extrae las notas atómicas.
+> 💡 **Tip:** La forma más rápida de poblar el sistema con conocimiento tácito real (el que vive en las cabezas) es hacer entrevistas estructuradas con los miembros del equipo y transcribirlas directamente a /Raw/. Una sesión de 30 minutos con la persona que lleva más tiempo en la empresa puede generar más conocimiento operativo real que meses de documentación formal. El agente procesa la transcripción y extrae las notas atómicas.
 
-> [!NOTE]
-> El valor compuesto del sistema tiene una mecánica específica: cada decisión documentada con sus consecuencias reales hace mejores las decisiones futuras porque el agente puede acceder al historial completo de decisiones similares antes de recomendar. Sin registro de consecuencias, el sistema acumula decisiones pero no aprendizaje. Completar el campo "Consecuencias registradas" en las notas de decisión es la práctica más subestimada del sistema.
+> 📌 **Nota:** El valor compuesto del sistema tiene una mecánica específica: cada decisión documentada con sus consecuencias reales hace mejores las decisiones futuras porque el agente puede acceder al historial completo de decisiones similares antes de recomendar. Sin registro de consecuencias, el sistema acumula decisiones pero no aprendizaje. Completar el campo "Consecuencias registradas" en las notas de decisión es la práctica más subestimada del sistema.
 
 ## 🔗 Ver también
 

@@ -88,17 +88,13 @@ Descripción natural:
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> Los archivos en Proyectos se cachean automáticamente. Esto no es solo comodidad — tiene implicaciones económicas directas si usas la API: el costo de tokens en cache es significativamente menor que el costo de tokens normales. En proyectos largos, estructurar bien los Proyectos puede reducir el costo de API a la mitad o menos.
+> 🔴 **Importante:** Los archivos en Proyectos se cachean automáticamente. Esto no es solo comodidad — tiene implicaciones económicas directas si usas la API: el costo de tokens en cache es significativamente menor que el costo de tokens normales. En proyectos largos, estructurar bien los Proyectos puede reducir el costo de API a la mitad o menos.
 
-> [!WARNING]
-> Claude Design genera código funcional, pero el método de "entrar a improvisar" produce resultados inconsistentes. La calidad del output de Claude Design es directamente proporcional a la calidad de los materiales que le das: si entras sin estrategia visual definida, el resultado se nota. Preparar primero en chat normal, ejecutar después en Design.
+> ⚠️ **Advertencia:** Claude Design genera código funcional, pero el método de "entrar a improvisar" produce resultados inconsistentes. La calidad del output de Claude Design es directamente proporcional a la calidad de los materiales que le das: si entras sin estrategia visual definida, el resultado se nota. Preparar primero en chat normal, ejecutar después en Design.
 
-> [!NOTE]
-> Extended Thinking consume entre 3x y 10x más tokens que una respuesta normal de Sonnet. En la API esto se factura por separado. En el plan de suscripción tiene límites de uso. La regla práctica: activarlo solo cuando el razonamiento necesita ser auditable (decisiones con consecuencias, análisis con múltiples variables, evaluación de riesgos).
+> 📌 **Nota:** Extended Thinking consume entre 3x y 10x más tokens que una respuesta normal de Sonnet. En la API esto se factura por separado. En el plan de suscripción tiene límites de uso. La regla práctica: activarlo solo cuando el razonamiento necesita ser auditable (decisiones con consecuencias, análisis con múltiples variables, evaluación de riesgos).
 
-> [!TIP]
-> MCPs (Model Context Protocol) son la capa que convierte Claude Desktop de un chatbot en un agente que opera tu entorno. Con MCPs puedes conectar Claude a bases de datos, APIs de terceros, herramientas de diseño, sistemas de archivos y cualquier servicio que tenga un conector. Se cubre en detalle en M3, pero vale saber desde ahora que la app Desktop es el punto de entrada a esa capacidad.
+> 💡 **Tip:** MCPs (Model Context Protocol) son la capa que convierte Claude Desktop de un chatbot en un agente que opera tu entorno. Con MCPs puedes conectar Claude a bases de datos, APIs de terceros, herramientas de diseño, sistemas de archivos y cualquier servicio que tenga un conector. Se cubre en detalle en M3, pero vale saber desde ahora que la app Desktop es el punto de entrada a esa capacidad.
 
 ---
 

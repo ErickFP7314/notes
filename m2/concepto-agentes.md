@@ -80,17 +80,13 @@ Cuando ves estas señales: usa `/compact` para comprimir el historial, o cierra 
 
 ## 📌 Notas y Alertas
 
-> [!WARNING]
-> El degradado de contexto ocurre entre el 20-40% de capacidad de la ventana, no al 100%. Planificar sesiones pensando que "aún le queda contexto" porque no se llenó es un error frecuente y costoso. El agente no avisa cuando empieza a perder coherencia.
+> ⚠️ **Advertencia:** El degradado de contexto ocurre entre el 20-40% de capacidad de la ventana, no al 100%. Planificar sesiones pensando que "aún le queda contexto" porque no se llenó es un error frecuente y costoso. El agente no avisa cuando empieza a perder coherencia.
 
-> [!IMPORTANT]
-> Modo planificación y modo implementación deben estar **estrictamente separados**. Preguntas o correcciones durante la implementación no solo interrumpen el flujo: consumen contexto adicional y aumentan la probabilidad de que el agente pierda el hilo del plan aprobado.
+> 🔴 **Importante:** Modo planificación y modo implementación deben estar **estrictamente separados**. Preguntas o correcciones durante la implementación no solo interrumpen el flujo: consumen contexto adicional y aumentan la probabilidad de que el agente pierda el hilo del plan aprobado.
 
-> [!TIP]
-> Para forzar el modo planificación, usa este prompt: *"Antes de proponer ninguna solución, entrevístame sobre el problema. Identifica los puntos de decisión, las ambigüedades, y lo que la solución NO debe hacer. Luego genera el plan y espera mi aprobación antes de escribir código."*
+> 💡 **Tip:** Para forzar el modo planificación, usa este prompt: *"Antes de proponer ninguna solución, entrevístame sobre el problema. Identifica los puntos de decisión, las ambigüedades, y lo que la solución NO debe hacer. Luego genera el plan y espera mi aprobación antes de escribir código."*
 
-> [!NOTE]
-> No es casualidad que el ecosistema de agentes favorezca Markdown sobre cualquier otro formato de documentación. La decisión técnica (texto plano = editable por el agente) y la decisión de workflow (docs en el repositorio = memoria del agente) están alineadas. Diseñar tu sistema de archivos con esto en mente cambia el valor que obtienes del agente.
+> 📌 **Nota:** No es casualidad que el ecosistema de agentes favorezca Markdown sobre cualquier otro formato de documentación. La decisión técnica (texto plano = editable por el agente) y la decisión de workflow (docs en el repositorio = memoria del agente) están alineadas. Diseñar tu sistema de archivos con esto en mente cambia el valor que obtienes del agente.
 
 ---
 

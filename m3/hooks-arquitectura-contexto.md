@@ -139,17 +139,13 @@ Tarea A
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> El closed loop con `post-tool-use` + linter no es solo una herramienta de calidad — es un cambio de arquitectura. Elimina una categoría completa de revisiones humanas: ya no necesitas verificar si el agente siguió convenciones de formato, si el código pasa el linter, o si los tipos están correctos. El sistema lo hace en cada iteración. Esto es observable y determinista, a diferencia de instruirle al agente que "recuerde revisar el código".
+> 🔴 **Importante:** El closed loop con `post-tool-use` + linter no es solo una herramienta de calidad — es un cambio de arquitectura. Elimina una categoría completa de revisiones humanas: ya no necesitas verificar si el agente siguió convenciones de formato, si el código pasa el linter, o si los tipos están correctos. El sistema lo hace en cada iteración. Esto es observable y determinista, a diferencia de instruirle al agente que "recuerde revisar el código".
 
-> [!WARNING]
-> Los scripts de hooks deben ser UV scripts de Python de un solo archivo sin dependencias externas. Si el hook depende de librerías instaladas en el proyecto, fallará en cualquier entorno donde esas librerías no estén. La fiabilidad del hook es más importante que su sofisticación.
+> ⚠️ **Advertencia:** Los scripts de hooks deben ser UV scripts de Python de un solo archivo sin dependencias externas. Si el hook depende de librerías instaladas en el proyecto, fallará en cualquier entorno donde esas librerías no estén. La fiabilidad del hook es más importante que su sofisticación.
 
-> [!TIP]
-> Context Priming con slash commands es la solución a los `claude.md` que crecen hasta volverse contraproducentes. Un archivo de 2,000 palabras que se carga en cada sesión consume tokens que podrían ser contexto de trabajo real. Mejor un `claude.md` mínimo con comandos `/prime` que cargan contexto específico cuando se necesita.
+> 💡 **Tip:** Context Priming con slash commands es la solución a los `claude.md` que crecen hasta volverse contraproducentes. Un archivo de 2,000 palabras que se carga en cada sesión consume tokens que podrían ser contexto de trabajo real. Mejor un `claude.md` mínimo con comandos `/prime` que cargan contexto específico cuando se necesita.
 
-> [!NOTE]
-> El framework R&D (Reduce & Delegate) no es una técnica de productividad personal — es una forma de pensar el diseño de sistemas multi-agente. La pregunta que debes hacerte antes de cualquier tarea inline es: "¿Esto infla mi contexto sin necesidad?" Si la respuesta es sí, la tarea va a un subagente.
+> 📌 **Nota:** El framework R&D (Reduce & Delegate) no es una técnica de productividad personal — es una forma de pensar el diseño de sistemas multi-agente. La pregunta que debes hacerte antes de cualquier tarea inline es: "¿Esto infla mi contexto sin necesidad?" Si la respuesta es sí, la tarea va a un subagente.
 
 ## 🔗 Ver también
 

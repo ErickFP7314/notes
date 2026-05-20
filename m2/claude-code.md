@@ -138,17 +138,13 @@ lo que sea redundante o lo que haya quedado obsoleto."
 
 ## 📌 Notas y Alertas
 
-> [!IMPORTANT]
-> El 80% del uso profesional de Claude Code empieza en Plan Mode, no en implementación. La herramienta está diseñada así a propósito. Saltarse la planificación para "ir más rápido" produce código que el agente mismo tendrá que refactorizar más adelante — y ese ciclo de refactorización consume más contexto y más tiempo que la planificación inicial.
+> 🔴 **Importante:** El 80% del uso profesional de Claude Code empieza en Plan Mode, no en implementación. La herramienta está diseñada así a propósito. Saltarse la planificación para "ir más rápido" produce código que el agente mismo tendrá que refactorizar más adelante — y ese ciclo de refactorización consume más contexto y más tiempo que la planificación inicial.
 
-> [!WARNING]
-> `/compact` comprime el historial pero **no es una solución infinita**. Úsalo cuando el contexto empieza a saturarse, pero si el proyecto requiere sesiones extremadamente largas, la solución correcta es rediseñar el flujo hacia múltiples sesiones cortas con Agent View, cada una con responsabilidad clara. La compresión reduce el ruido; no recupera calidad perdida por saturación severa.
+> ⚠️ **Advertencia:** `/compact` comprime el historial pero **no es una solución infinita**. Úsalo cuando el contexto empieza a saturarse, pero si el proyecto requiere sesiones extremadamente largas, la solución correcta es rediseñar el flujo hacia múltiples sesiones cortas con Agent View, cada una con responsabilidad clara. La compresión reduce el ruido; no recupera calidad perdida por saturación severa.
 
-> [!TIP]
-> El comando `#` para memorizar instrucciones en `claude.md` es más valioso cuando lo usas para capturar **decisiones que surgen durante la implementación**. Si en medio de una sesión descubres que el patrón X no funciona en este proyecto, escríbelo con `#` en ese momento. No esperes al final de la sesión para actualizar el archivo manualmente.
+> 💡 **Tip:** El comando `#` para memorizar instrucciones en `claude.md` es más valioso cuando lo usas para capturar **decisiones que surgen durante la implementación**. Si en medio de una sesión descubres que el patrón X no funciona en este proyecto, escríbelo con `#` en ese momento. No esperes al final de la sesión para actualizar el archivo manualmente.
 
-> [!NOTE]
-> Antigravity y Claude Code son el mismo motor con distinta interfaz. Para trabajo cotidiano con buena experiencia visual, Antigravity. Para scripts de automatización, integración con CI/CD, o cuando el editor pasa a segundo plano, Claude Code desde terminal tiene ventajas claras. Muchos developers usan ambos según el contexto — no hay que elegir uno definitivamente.
+> 📌 **Nota:** Antigravity y Claude Code son el mismo motor con distinta interfaz. Para trabajo cotidiano con buena experiencia visual, Antigravity. Para scripts de automatización, integración con CI/CD, o cuando el editor pasa a segundo plano, Claude Code desde terminal tiene ventajas claras. Muchos developers usan ambos según el contexto — no hay que elegir uno definitivamente.
 
 ---
 
