@@ -52,6 +52,7 @@
 | L23 | Frontend con IA: Stitch, skills y Playwright | [02-frontend-ia-stitch.md](./m4/02-frontend-ia-stitch.md) |
 | L24 | Backend automático y Git Worktrees | [03-backend-git-worktrees.md](./m4/03-backend-git-worktrees.md) |
 | L25 | Spec-Driven Development y Harness Engineering | [04-sdd-harness-engineering.md](./m4/04-sdd-harness-engineering.md) |
+| L25b | Construcción del Arnés de IA (Bucle y Memoria) | [08-harness-engineering.md](./m4/08-harness-engineering.md) |
 | L26 | Gentleman AI, Engram y contexto con NotebookLM | [05-gentleman-ai-engram.md](./m4/05-gentleman-ai-engram.md) |
 | L27 | Startup completa con n8n y Graphify | [06-startup-n8n-graphify.md](./m4/06-startup-n8n-graphify.md) |
 | L28 | Pagos, deploy y el desarrollador potenciado | [07-pagos-deploy-reflexion.md](./m4/07-pagos-deploy-reflexion.md) |
@@ -137,6 +138,8 @@ Términos clave del curso enlazados al archivo donde se explican en profundidad.
 | Harness Engineering | [04-sdd-harness-engineering.md](./m4/04-sdd-harness-engineering.md) |
 | Guides vs Sensors | [04-sdd-harness-engineering.md](./m4/04-sdd-harness-engineering.md) |
 | Principio de Sustracción | [04-sdd-harness-engineering.md](./m4/04-sdd-harness-engineering.md) |
+| Bucle RPL | [08-harness-engineering.md](./m4/08-harness-engineering.md) |
+| Subagentes | [08-harness-engineering.md](./m4/08-harness-engineering.md) |
 | Engram (memoria persistente) | [05-gentleman-ai-engram.md](./m4/05-gentleman-ai-engram.md) |
 | Gentleman AI | [05-gentleman-ai-engram.md](./m4/05-gentleman-ai-engram.md) |
 | mem_session_summary | [05-gentleman-ai-engram.md](./m4/05-gentleman-ai-engram.md) |
