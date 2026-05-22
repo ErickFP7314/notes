@@ -1,7 +1,7 @@
-# [L04] Ollama y Modelos Locales: IA sin Costo de Tokens
+# [L05] Ollama y Modelos Locales: IA sin Costo de Tokens
 
 > **Módulo:** M2 — Agentes de IA y Entornos de Ejecución  
-> **Lección:** L04  
+> **Lección:** L05  
 > **Tags:** `ollama` `modelos-locales` `lm-studio` `privacidad` `ia-local`
 
 ---

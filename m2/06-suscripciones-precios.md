@@ -1,7 +1,7 @@
-# [L05] Suscripciones y Precios: Qué Compras con Cada Plan
+# [L06] Suscripciones y Precios: Qué Compras con Cada Plan
 
 > **Módulo:** M2 — Agentes de IA y Entornos de Ejecución  
-> **Lección:** L05  
+> **Lección:** L06  
 > **Tags:** `precios` `claude-pro` `openrouter` `gemini` `chatgpt` `suscripciones`
 
 ---

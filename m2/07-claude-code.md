@@ -1,7 +1,7 @@
-# [L06] Claude Code: Instalación, Comandos y Manejo de Contexto
+# [L07] Claude Code: Instalación, Comandos y Manejo de Contexto
 
 > **Módulo:** M2 — Agentes de IA y Entornos de Ejecución  
-> **Lección:** L06  
+> **Lección:** L07  
 > **Tags:** `claude-code` `plan-mode` `agent-view` `claude-md` `slash-commands` `contexto`
 
 ---

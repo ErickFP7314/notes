@@ -131,8 +131,8 @@ lo que sea redundante o lo que haya quedado obsoleto."
 ## 🔗 Ver también
 
 - [Ecosistema de Agentes](./02-ecosistema-agentes.md) — contexto sobre los tipos de agentes y por qué Antigravity es el punto de entrada del curso
-- [Ollama y Modelos Locales](./04-ollama-modelos-locales.md) — cómo conectar modelos locales gratuitos a Antigravity para tareas repetitivas
-- [Suscripciones y Precios](./05-suscripciones-precios.md) — qué plan necesitas para usar Antigravity con Claude Pro
+- [Ollama y Modelos Locales](./05-ollama-modelos-locales.md) — cómo conectar modelos locales gratuitos a Antigravity para tareas repetitivas
+- [Suscripciones y Precios](./06-suscripciones-precios.md) — qué plan necesitas para usar Antigravity con Claude Pro
 
 ---
 
