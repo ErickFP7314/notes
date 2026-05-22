@@ -1,7 +1,7 @@
-# [L25] Harness Engineering y Spec-Driven Development
+# [L04] Harness Engineering y Spec-Driven Development
 
 > **Módulo:** M4 — Creación de Productos, SDD y Monetización  
-> **Lección:** L25  
+> **Lección:** L04  
 > **Tags:** `sdd` `harness` `metodología` `specs` `prd` `rfc` `agentes` `vibe-coding`
 
 ---

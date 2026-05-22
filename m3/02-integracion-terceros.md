@@ -1,7 +1,7 @@
-# [L16] Integración con Servicios Externos
+# [L02] Integración con Servicios Externos
 
 > **Módulo:** M3 — Prácticas Avanzadas, Automatización y MCPs  
-> **Lección:** L16  
+> **Lección:** L02  
 > **Tags:** `apis` `github` `trello` `linear` `n8n` `integraciones` `webhooks`
 
 ---

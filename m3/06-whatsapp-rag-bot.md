@@ -1,7 +1,7 @@
-# [L20] WhatsApp RAG Bot: Base de Conocimiento con IA
+# [L06] WhatsApp RAG Bot: Base de Conocimiento con IA
 
 > **Módulo:** M3 — Prácticas Avanzadas, Automatización y MCPs  
-> **Lección:** L20  
+> **Lección:** L06  
 > **Tags:** `rag` `llm-wiki` `obsidian` `whatsapp` `embeddings` `vectordb` `karpathy` `base-de-conocimiento`
 
 ---

@@ -1,7 +1,7 @@
-# [L31] Obsidian + Claude Code: El Cerebro que Aprende
+# [L02] Obsidian + Claude Code: El Cerebro que Aprende
 
 > **Módulo:** M5 — Obsidian y Gestión Empresarial  
-> **Lección:** L31  
+> **Lección:** L02  
 > **Tags:** `obsidian` `claude-code` `cloud-md` `brain-dump` `memoria-persistente` `notebooklm`
 
 ---

@@ -1,7 +1,7 @@
-# [L28] Startup Completa: Workflows Agénticos y Graphify
+# [L07] Startup Completa: Workflows Agénticos y Graphify
 
 > **Módulo:** M4 — Creación de Productos, SDD y Monetización  
-> **Lección:** L28  
+> **Lección:** L07  
 > **Tags:** `startup` `n8n` `graphify` `workflows-agénticos` `e2b` `mcp` `cuarta-era` `codebase`
 
 ---

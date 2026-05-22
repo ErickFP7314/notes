@@ -1,7 +1,7 @@
-# [L18] MCP Avanzado: FastMCP, Casos Reales y Monetización
+# [L04] MCP Avanzado: FastMCP, Casos Reales y Monetización
 
 > **Módulo:** M3 — Prácticas Avanzadas, Automatización y MCPs  
-> **Lección:** L18  
+> **Lección:** L04  
 > **Tags:** `mcp` `fastmcp` `python` `oauth` `jwt` `monetización` `xpack` `stripe` `workspace-isolation`
 
 ---

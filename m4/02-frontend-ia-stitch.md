@@ -1,7 +1,7 @@
-# [L23] Frontend con IA: Stitch, Claude Design y Playwright
+# [L02] Frontend con IA: Stitch, Claude Design y Playwright
 
 > **Módulo:** M4 — Creación de Productos, SDD y Monetización  
-> **Lección:** L23  
+> **Lección:** L02  
 > **Tags:** `frontend` `diseño` `stitch` `claude-design` `playwright` `testing` `ui`
 
 ---

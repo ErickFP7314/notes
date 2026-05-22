@@ -1,7 +1,7 @@
-# [L14] OpenCode y Opciones Abiertas: Libertad de Modelo y Paralelismo
+# [L07] OpenCode y Opciones Abiertas: Libertad de Modelo y Paralelismo
 
 > **Módulo:** M2 — Agentes de IA y Entornos de Ejecución  
-> **Lección:** L14  
+> **Lección:** L07  
 > **Tags:** `opencode` `openclaw` `modelos` `multi-sesion` `open-source` `codex`
 
 ---

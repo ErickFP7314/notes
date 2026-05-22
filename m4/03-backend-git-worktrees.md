@@ -1,7 +1,7 @@
-# [L24] Backend Automático y Git Worktrees
+# [L03] Backend Automático y Git Worktrees
 
 > **Módulo:** M4 — Creación de Productos, SDD y Monetización  
-> **Lección:** L24  
+> **Lección:** L03  
 > **Tags:** `backend` `git-worktrees` `deploy` `baas` `railway` `agentes-paralelos` `serverless`
 
 ---

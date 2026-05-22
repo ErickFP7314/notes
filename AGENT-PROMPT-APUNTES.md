@@ -24,7 +24,8 @@ notes/
 
 ### Reglas de naming
 
-- **Prefijo**: dos dígitos (`01-`, `02-`, …`08-`) según el orden dentro del módulo.
+- **Prefijo de archivo**: dos dígitos (`01-`, `02-`, …) que indican el orden secuencial de la lección **dentro de su propio módulo**. La cuenta se reinicia a `01` en cada módulo.
+- **Numeración Interna (`L##`)**: Dentro del apunte y en el `README.md`, cualquier etiqueta como `# [L##]` o `Lección: L##` debe usar **siempre** el mismo número local de 2 dígitos del archivo. NUNCA utilices una numeración global. Por ejemplo, el archivo `m3/04-slug.md` usará `# [L04]`.
 - **Slug**: minúsculas, palabras separadas por guión, máximo 5 palabras, descriptivo del tema central. Ejemplos: `claude-code.md`, `mcp-conceptos.md`, `hooks-arquitectura-contexto.md`.
 - **Carpeta**: módulo al que pertenece la lección (`m1/` a `m5/`). Si la clase no encaja en ninguno de los 5 módulos existentes, crea una carpeta nueva con el mismo patrón (`m6/`, etc.) y añade la sección al `README.md`.
 

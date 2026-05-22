@@ -1,7 +1,7 @@
-# [L29] Pagos, Deploy y el Desarrollador Potenciado
+# [L08] Pagos, Deploy y el Desarrollador Potenciado
 
 > **Módulo:** M4 — Creación de Productos, SDD y Monetización  
-> **Lección:** L29  
+> **Lección:** L08  
 > **Tags:** `pagos` `stripe` `deploy` `latam` `monetización` `modelos-de-negocio` `reflexión`
 
 ---

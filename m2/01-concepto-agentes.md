@@ -1,7 +1,7 @@
-# [L08] Concepto de Agentes: LLM + Herramientas + Bucle Autónomo
+# [L01] Concepto de Agentes: LLM + Herramientas + Bucle Autónomo
 
 > **Módulo:** M2 — Agentes de IA y Entornos de Ejecución  
-> **Lección:** L08  
+> **Lección:** L01  
 > **Tags:** `agentes` `bucle-autonomo` `herramientas` `contexto` `texto-plano`
 
 ---

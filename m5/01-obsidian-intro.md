@@ -1,7 +1,7 @@
-# [L30] Obsidian: Tu Segundo Cerebro
+# [L01] Obsidian: Tu Segundo Cerebro
 
 > **Módulo:** M5 — Obsidian y Gestión Empresarial  
-> **Lección:** L30  
+> **Lección:** L01  
 > **Tags:** `obsidian` `segundo-cerebro` `markdown` `knowledge-management` `vault`
 
 ---

@@ -1,7 +1,7 @@
-# [L19] n8n: Flujos Visuales con IA
+# [L05] n8n: Flujos Visuales con IA
 
 > **Módulo:** M3 — Prácticas Avanzadas, Automatización y MCPs  
-> **Lección:** L19  
+> **Lección:** L05  
 > **Tags:** `n8n` `automatización` `flujos` `webhook` `cron` `haiku` `sonnet` `self-hosting`
 
 ---

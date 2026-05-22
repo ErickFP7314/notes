@@ -23,50 +23,50 @@
 
 | # | Lección | Archivo |
 |---|---------|---------|
-| L08 | Concepto de agentes y diferencias clave | [01-concepto-agentes.md](./m2/01-concepto-agentes.md) |
-| L09 | Ecosistema de agentes: tipos y comparativa | [02-ecosistema-agentes.md](./m2/02-ecosistema-agentes.md) |
-| L10 | Antigravity: instalación, interfaz y Skills | [03-antigravity-skills.md](./m2/03-antigravity-skills.md) |
-| L11 | Ollama y modelos locales | [04-ollama-modelos-locales.md](./m2/04-ollama-modelos-locales.md) |
-| L12 | Suscripciones y precios de agentes | [05-suscripciones-precios.md](./m2/05-suscripciones-precios.md) |
-| L13 | Claude Code: instalación, comandos y contexto | [06-claude-code.md](./m2/06-claude-code.md) |
-| L14 | OpenCode y opciones abiertas | [07-opencode-opciones.md](./m2/07-opencode-opciones.md) |
+| L01 | Concepto de agentes y diferencias clave | [01-concepto-agentes.md](./m2/01-concepto-agentes.md) |
+| L02 | Ecosistema de agentes: tipos y comparativa | [02-ecosistema-agentes.md](./m2/02-ecosistema-agentes.md) |
+| L03 | Antigravity: instalación, interfaz y Skills | [03-antigravity-skills.md](./m2/03-antigravity-skills.md) |
+| L04 | Ollama y modelos locales | [04-ollama-modelos-locales.md](./m2/04-ollama-modelos-locales.md) |
+| L05 | Suscripciones y precios de agentes | [05-suscripciones-precios.md](./m2/05-suscripciones-precios.md) |
+| L06 | Claude Code: instalación, comandos y contexto | [06-claude-code.md](./m2/06-claude-code.md) |
+| L07 | OpenCode y opciones abiertas | [07-opencode-opciones.md](./m2/07-opencode-opciones.md) |
 
 ### Módulo 3 — Prácticas Avanzadas, Automatización y MCPs
 
 | # | Lección | Archivo |
 |---|---------|---------|
-| L15 | Scripts avanzados y APIs públicas | [01-scripts-apis-publicas.md](./m3/01-scripts-apis-publicas.md) |
-| L16 | Integración con aplicaciones de terceros | [02-integracion-terceros.md](./m3/02-integracion-terceros.md) |
-| L17 | Model Context Protocol: conceptos base | [03-mcp-conceptos.md](./m3/03-mcp-conceptos.md) |
-| L18 | MCPs avanzados y proyecto práctico | [04-mcp-avanzado.md](./m3/04-mcp-avanzado.md) |
-| L19 | n8n: flujos visuales y automatizaciones | [05-n8n-flujos.md](./m3/05-n8n-flujos.md) |
-| L20 | WhatsApp RAG bot | [06-whatsapp-rag-bot.md](./m3/06-whatsapp-rag-bot.md) |
-| L21 | Hooks y arquitectura de contexto | [07-hooks-arquitectura-contexto.md](./m3/07-hooks-arquitectura-contexto.md) |
-| L21b | Agente 24/7: VPS, Telegram y seguridad | [08-agente-247-vps.md](./m3/08-agente-247-vps.md) |
+| L01 | Scripts avanzados y APIs públicas | [01-scripts-apis-publicas.md](./m3/01-scripts-apis-publicas.md) |
+| L02 | Integración con aplicaciones de terceros | [02-integracion-terceros.md](./m3/02-integracion-terceros.md) |
+| L03 | Model Context Protocol: conceptos base | [03-mcp-conceptos.md](./m3/03-mcp-conceptos.md) |
+| L04 | MCPs avanzados y proyecto práctico | [04-mcp-avanzado.md](./m3/04-mcp-avanzado.md) |
+| L05 | n8n: flujos visuales y automatizaciones | [05-n8n-flujos.md](./m3/05-n8n-flujos.md) |
+| L06 | WhatsApp RAG bot | [06-whatsapp-rag-bot.md](./m3/06-whatsapp-rag-bot.md) |
+| L07 | Hooks y arquitectura de contexto | [07-hooks-arquitectura-contexto.md](./m3/07-hooks-arquitectura-contexto.md) |
+| L08 | Agente 24/7: VPS, Telegram y seguridad | [08-agente-247-vps.md](./m3/08-agente-247-vps.md) |
 
 ### Módulo 4 — Creación de Productos, SDD y Monetización
 
 | # | Lección | Archivo |
 |---|---------|---------|
-| L22 | Arquitectura web básica | [01-arquitectura-web.md](./m4/01-arquitectura-web.md) |
-| L23 | Frontend con IA: Stitch, skills y Playwright | [02-frontend-ia-stitch.md](./m4/02-frontend-ia-stitch.md) |
-| L24 | Backend automático y Git Worktrees | [03-backend-git-worktrees.md](./m4/03-backend-git-worktrees.md) |
-| L25 | Spec-Driven Development y Harness Engineering | [04-sdd-harness-engineering.md](./m4/04-sdd-harness-engineering.md) |
-| L26 | Construcción del Arnés de IA (Bucle y Memoria) | [05-harness-engineering.md](./m4/05-harness-engineering.md) |
-| L27 | Gentleman AI, Engram y contexto con NotebookLM | [06-gentleman-ai-engram.md](./m4/06-gentleman-ai-engram.md) |
-| L28 | Startup completa con n8n y Graphify | [07-startup-n8n-graphify.md](./m4/07-startup-n8n-graphify.md) |
-| L29 | Pagos, deploy y el desarrollador potenciado | [08-pagos-deploy-reflexion.md](./m4/08-pagos-deploy-reflexion.md) |
+| L01 | Arquitectura web básica | [01-arquitectura-web.md](./m4/01-arquitectura-web.md) |
+| L02 | Frontend con IA: Stitch, skills y Playwright | [02-frontend-ia-stitch.md](./m4/02-frontend-ia-stitch.md) |
+| L03 | Backend automático y Git Worktrees | [03-backend-git-worktrees.md](./m4/03-backend-git-worktrees.md) |
+| L04 | Spec-Driven Development y Harness Engineering | [04-sdd-harness-engineering.md](./m4/04-sdd-harness-engineering.md) |
+| L05 | Construcción del Arnés de IA (Bucle y Memoria) | [05-harness-engineering.md](./m4/05-harness-engineering.md) |
+| L06 | Gentleman AI, Engram y contexto con NotebookLM | [06-gentleman-ai-engram.md](./m4/06-gentleman-ai-engram.md) |
+| L07 | Startup completa con n8n y Graphify | [07-startup-n8n-graphify.md](./m4/07-startup-n8n-graphify.md) |
+| L08 | Pagos, deploy y el desarrollador potenciado | [08-pagos-deploy-reflexion.md](./m4/08-pagos-deploy-reflexion.md) |
 
 ### Módulo 5 — Obsidian y Gestión Empresarial
 
 | # | Lección | Archivo |
 |---|---------|---------|
-| L30 | Obsidian: introducción y cerebro digital | [01-obsidian-intro.md](./m5/01-obsidian-intro.md) |
-| L31 | Cerebro digital: NotebookLM y síntesis con IA | [02-cerebro-digital-notebooklm.md](./m5/02-cerebro-digital-notebooklm.md) |
-| L32 | Ecosistema técnico de Obsidian | [03-obsidian-ecosistema.md](./m5/03-obsidian-ecosistema.md) |
-| L33 | Gestión empresarial con Obsidian | [04-gestion-empresarial-obsidian.md](./m5/04-gestion-empresarial-obsidian.md) |
-| L34 | Segundo Cerebro empresarial | [05-segundo-cerebro-empresarial.md](./m5/05-segundo-cerebro-empresarial.md) |
-| L35 | OpenRouter y Claude Code gratis *(Bonus)* | [06-openrouter-ia-local.md](./m5/06-openrouter-ia-local.md) |
+| L01 | Obsidian: introducción y cerebro digital | [01-obsidian-intro.md](./m5/01-obsidian-intro.md) |
+| L02 | Cerebro digital: NotebookLM y síntesis con IA | [02-cerebro-digital-notebooklm.md](./m5/02-cerebro-digital-notebooklm.md) |
+| L03 | Ecosistema técnico de Obsidian | [03-obsidian-ecosistema.md](./m5/03-obsidian-ecosistema.md) |
+| L04 | Gestión empresarial con Obsidian | [04-gestion-empresarial-obsidian.md](./m5/04-gestion-empresarial-obsidian.md) |
+| L05 | Segundo Cerebro empresarial | [05-segundo-cerebro-empresarial.md](./m5/05-segundo-cerebro-empresarial.md) |
+| L06 | OpenRouter y Claude Code gratis *(Bonus)* | [06-openrouter-ia-local.md](./m5/06-openrouter-ia-local.md) |
 
 ---
 
@@ -163,19 +163,19 @@ Términos clave del curso enlazados al archivo donde se explican en profundidad.
 ## 🔁 Rutas de Aprendizaje Recomendadas
 
 **Ruta rápida — solo quiero usar IA hoy:**
-[L01](./m1/01-contexto-tokens-tipos-ia.md) → [L02](./m1/02-panorama-herramientas-llm.md) → [L03](./m1/03-chatgpt-avanzado.md) → [L13](./m2/06-claude-code.md)
+[L01](./m1/01-contexto-tokens-tipos-ia.md) → [L02](./m1/02-panorama-herramientas-llm.md) → [L03](./m1/03-chatgpt-avanzado.md) → [L06](./m2/06-claude-code.md)
 
 **Ruta agentes — quiero automatizar con código:**
-[L08](./m2/01-concepto-agentes.md) → [L09](./m2/02-ecosistema-agentes.md) → [L13](./m2/06-claude-code.md) → [L15](./m3/01-scripts-apis-publicas.md) → [L17](./m3/03-mcp-conceptos.md) → [L21](./m3/07-hooks-arquitectura-contexto.md)
+[L01](./m2/01-concepto-agentes.md) → [L02](./m2/02-ecosistema-agentes.md) → [L06](./m2/06-claude-code.md) → [L01](./m3/01-scripts-apis-publicas.md) → [L03](./m3/03-mcp-conceptos.md) → [L07](./m3/07-hooks-arquitectura-contexto.md)
 
 **Ruta producto — quiero lanzar algo:**
-[L22](./m4/01-arquitectura-web.md) → [L23](./m4/02-frontend-ia-stitch.md) → [L24](./m4/03-backend-git-worktrees.md) → [L25](./m4/04-sdd-harness-engineering.md) → [L28](./m4/07-startup-n8n-graphify.md) → [L29](./m4/08-pagos-deploy-reflexion.md)
+[L01](./m4/01-arquitectura-web.md) → [L02](./m4/02-frontend-ia-stitch.md) → [L03](./m4/03-backend-git-worktrees.md) → [L04](./m4/04-sdd-harness-engineering.md) → [L07](./m4/07-startup-n8n-graphify.md) → [L08](./m4/08-pagos-deploy-reflexion.md)
 
 **Ruta sin presupuesto — quiero IA gratis:**
-[L05](./m1/05-modelos-open-source.md) → [L11](./m2/04-ollama-modelos-locales.md) → [L14](./m2/07-opencode-opciones.md) → [L35](./m5/06-openrouter-ia-local.md)
+[L05](./m1/05-modelos-open-source.md) → [L04](./m2/04-ollama-modelos-locales.md) → [L07](./m2/07-opencode-opciones.md) → [L06](./m5/06-openrouter-ia-local.md)
 
 **Ruta segundo cerebro — quiero organizar mi conocimiento:**
-[L07](./m1/07-notebooklm-rag-google-labs.md) → [L29](./m5/01-obsidian-intro.md) → [L30](./m5/02-cerebro-digital-notebooklm.md) → [L31](./m5/03-obsidian-ecosistema.md) → [L33](./m5/05-segundo-cerebro-empresarial.md)
+[L07](./m1/07-notebooklm-rag-google-labs.md) → [L01](./m5/01-obsidian-intro.md) → [L02](./m5/02-cerebro-digital-notebooklm.md) → [L03](./m5/03-obsidian-ecosistema.md) → [L05](./m5/05-segundo-cerebro-empresarial.md)
 
 ---
 

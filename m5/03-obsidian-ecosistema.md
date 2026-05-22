@@ -1,7 +1,7 @@
-# [L32] Ecosistema Técnico de Obsidian
+# [L03] Ecosistema Técnico de Obsidian
 
 > **Módulo:** M5 — Obsidian y Gestión Empresarial  
-> **Lección:** L32  
+> **Lección:** L03  
 > **Tags:** `obsidian` `git` `llm-wiki` `vs-code` `arquitectura` `graphify` `mcp`
 
 ---

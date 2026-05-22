@@ -1,7 +1,7 @@
-# [L21b] Agente 24/7: VPS, Telegram y las 4 Capas de Seguridad
+# [L08] Agente 24/7: VPS, Telegram y las 4 Capas de Seguridad
 
 > **Módulo:** M3 — Prácticas Avanzadas, Automatización y MCPs  
-> **Lección:** L21b  
+> **Lección:** L08  
 > **Tags:** `vps` `telegram` `seguridad` `openclaw` `autonomia` `identidad-separada` `permisos-minimos` `produccion`
 
 ---

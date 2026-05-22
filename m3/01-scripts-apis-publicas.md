@@ -1,7 +1,7 @@
-# [L15] Scripts, APIs y Claude Routines
+# [L01] Scripts, APIs y Claude Routines
 
 > **Módulo:** M3 — Prácticas Avanzadas, Automatización y MCPs  
-> **Lección:** L15  
+> **Lección:** L01  
 > **Tags:** `api` `python` `automatización` `context-management` `skill-creator` `routines`
 
 ---

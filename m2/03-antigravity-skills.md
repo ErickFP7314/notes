@@ -1,7 +1,7 @@
-# [L10] Antigravity: Instalación, claude.md y el Sistema de Skills
+# [L03] Antigravity: Instalación, claude.md y el Sistema de Skills
 
 > **Módulo:** M2 — Agentes de IA y Entornos de Ejecución  
-> **Lección:** L10  
+> **Lección:** L03  
 > **Tags:** `antigravity` `claude-md` `skills` `vs-code` `configuracion`
 
 ---

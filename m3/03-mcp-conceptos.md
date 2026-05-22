@@ -1,7 +1,7 @@
-# [L17] MCP: El Protocolo que Conecta la IA con el Mundo
+# [L03] MCP: El Protocolo que Conecta la IA con el Mundo
 
 > **Módulo:** M3 — Prácticas Avanzadas, Automatización y MCPs  
-> **Lección:** L17  
+> **Lección:** L03  
 > **Tags:** `mcp` `protocolo` `herramientas` `tools` `resources` `stdio` `http` `arquitectura`
 
 ---

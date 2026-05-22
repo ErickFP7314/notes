@@ -1,7 +1,7 @@
-# [L22] Arquitectura Web: Los 5 Pilares
+# [L01] Arquitectura Web: Los 5 Pilares
 
 > **Módulo:** M4 — Creación de Productos, SDD y Monetización  
-> **Lección:** L22  
+> **Lección:** L01  
 > **Tags:** `arquitectura` `backend` `frontend` `bases-de-datos` `apis` `autenticación` `deploy`
 
 ---

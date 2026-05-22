@@ -1,7 +1,7 @@
-# [L21] Hooks y Arquitectura de Contexto
+# [L07] Hooks y Arquitectura de Contexto
 
 > **Módulo:** M3 — Prácticas Avanzadas, Automatización y MCPs  
-> **Lección:** L21  
+> **Lección:** L07  
 > **Tags:** `hooks` `claude-code` `context-engineering` `closed-loop` `R&D` `builder-validator` `settings.json` `subagentes`
 
 ---
