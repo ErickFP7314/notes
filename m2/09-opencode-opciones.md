@@ -1,7 +1,7 @@
-# [L08] OpenCode y Opciones Abiertas: Libertad de Modelo y Paralelismo
+# [L09] OpenCode y Opciones Abiertas: Libertad de Modelo y Paralelismo
 
 > **Módulo:** M2 — Agentes de IA y Entornos de Ejecución  
-> **Lección:** L08  
+> **Lección:** L09  
 > **Tags:** `opencode` `openclaw` `modelos` `multi-sesion` `open-source` `codex`
 
 ---
@@ -27,7 +27,7 @@ OpenClaw (la versión orientada a agentes autónomos en servidor) tiene una arqu
 - `user.md` — descripción de quién eres y cómo trabajas
 - `tools.md` — registro de cómo usar herramientas específicas
 
-No hay magia interna. No hay configuración oculta. Todo está en archivos. Esta arquitectura refuerza el principio de L08: el repositorio es la memoria del agente.
+No hay magia interna. No hay configuración oculta. Todo está en archivos. Esta arquitectura refuerza el principio de L09: el repositorio es la memoria del agente.
 
 ### Heartbeat: proactividad sin supervisión
 

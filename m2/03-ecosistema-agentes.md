@@ -1,7 +1,7 @@
-# [L02] Ecosistema de Agentes: Mapa, Tipos y Criterios de Elección
+# [L03] Ecosistema de Agentes: Mapa, Tipos y Criterios de Elección
 
 > **Módulo:** M2 — Agentes de IA y Entornos de Ejecución  
-> **Lección:** L02  
+> **Lección:** L03  
 > **Tags:** `ecosistema` `claude-code` `opencode` `multi-agente` `cursor` `agentes-cloud`
 
 ---

@@ -1,7 +1,7 @@
-# [L04] Antigravity CLI: El Agente Nativo de Terminal
+# [L05] Antigravity CLI: El Agente Nativo de Terminal
 
 > **Módulo:** M2 — Agentes de IA y Entornos de Ejecución  
-> **Lección:** L04  
+> **Lección:** L05  
 > **Tags:** `antigravity-cli` `terminal` `subagentes` `yolo-mode` `sdd`
 
 ---

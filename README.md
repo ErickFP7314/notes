@@ -24,13 +24,14 @@
 | # | Lección | Archivo |
 |---|---------|---------|
 | L01 | Concepto de agentes y diferencias clave | [01-concepto-agentes.md](./m2/01-concepto-agentes.md) |
-| L02 | Ecosistema de agentes: tipos y comparativa | [02-ecosistema-agentes.md](./m2/02-ecosistema-agentes.md) |
-| L03 | Antigravity: instalación, interfaz y Skills | [03-antigravity-skills.md](./m2/03-antigravity-skills.md) |
-| L04 | Antigravity CLI: El Agente Nativo de Terminal | [04-antigravity-cli.md](./m2/04-antigravity-cli.md) |
-| L05 | Ollama y modelos locales | [05-ollama-modelos-locales.md](./m2/05-ollama-modelos-locales.md) |
-| L06 | Suscripciones y precios de agentes | [06-suscripciones-precios.md](./m2/06-suscripciones-precios.md) |
-| L07 | Claude Code: instalación, comandos y contexto | [07-claude-code.md](./m2/07-claude-code.md) |
-| L08 | OpenCode y opciones abiertas | [08-opencode-opciones.md](./m2/08-opencode-opciones.md) |
+| L02 | Arneses de IA y Arquitectura del Agente | [02-arneses-ia.md](./m2/02-arneses-ia.md) |
+| L03 | Ecosistema de agentes: tipos y comparativa | [03-ecosistema-agentes.md](./m2/03-ecosistema-agentes.md) |
+| L04 | Antigravity: instalación, interfaz y Skills | [04-antigravity-skills.md](./m2/04-antigravity-skills.md) |
+| L05 | Antigravity CLI: El Agente Nativo de Terminal | [05-antigravity-cli.md](./m2/05-antigravity-cli.md) |
+| L06 | Ollama y modelos locales | [06-ollama-modelos-locales.md](./m2/06-ollama-modelos-locales.md) |
+| L07 | Suscripciones y precios de agentes | [07-suscripciones-precios.md](./m2/07-suscripciones-precios.md) |
+| L08 | Claude Code: instalación, comandos y contexto | [08-claude-code.md](./m2/08-claude-code.md) |
+| L09 | OpenCode y opciones abiertas | [09-opencode-opciones.md](./m2/09-opencode-opciones.md) |
 
 ### Módulo 3 — Prácticas Avanzadas, Automatización y MCPs
 
@@ -99,17 +100,19 @@ Términos clave del curso enlazados al archivo donde se explican en profundidad.
 | Agente de IA | [01-concepto-agentes.md](./m2/01-concepto-agentes.md) |
 | Plan Mode vs Implementation Mode | [01-concepto-agentes.md](./m2/01-concepto-agentes.md) |
 | Texto plano vs binarios | [01-concepto-agentes.md](./m2/01-concepto-agentes.md) |
-| Antigravity | [03-antigravity-skills.md](./m2/03-antigravity-skills.md) |
-| Sistema de Skills | [03-antigravity-skills.md](./m2/03-antigravity-skills.md) |
-| Ollama | [05-ollama-modelos-locales.md](./m2/05-ollama-modelos-locales.md) |
-| LM Studio | [05-ollama-modelos-locales.md](./m2/05-ollama-modelos-locales.md) |
+| Arnés de IA | [02-arneses-ia.md](./m2/02-arneses-ia.md) |
+| Bucle REPL | [02-arneses-ia.md](./m2/02-arneses-ia.md) |
+| Antigravity | [04-antigravity-skills.md](./m2/04-antigravity-skills.md) |
+| Sistema de Skills | [04-antigravity-skills.md](./m2/04-antigravity-skills.md) |
+| Ollama | [06-ollama-modelos-locales.md](./m2/06-ollama-modelos-locales.md) |
+| LM Studio | [06-ollama-modelos-locales.md](./m2/06-ollama-modelos-locales.md) |
 | OpenRouter | [06-openrouter-ia-local.md](./m5/06-openrouter-ia-local.md) |
-| Claude Code | [07-claude-code.md](./m2/07-claude-code.md) |
-| CLAUDE.md | [07-claude-code.md](./m2/07-claude-code.md) |
-| /compact | [07-claude-code.md](./m2/07-claude-code.md) |
-| Agent View | [07-claude-code.md](./m2/07-claude-code.md) |
-| OpenCode | [08-opencode-opciones.md](./m2/08-opencode-opciones.md) |
-| OpenClaw | [08-opencode-opciones.md](./m2/08-opencode-opciones.md) |
+| Claude Code | [08-claude-code.md](./m2/08-claude-code.md) |
+| CLAUDE.md | [08-claude-code.md](./m2/08-claude-code.md) |
+| /compact | [08-claude-code.md](./m2/08-claude-code.md) |
+| Agent View | [08-claude-code.md](./m2/08-claude-code.md) |
+| OpenCode | [09-opencode-opciones.md](./m2/09-opencode-opciones.md) |
+| OpenClaw | [09-opencode-opciones.md](./m2/09-opencode-opciones.md) |
 | Claude Routines (automatización) | [01-scripts-apis-publicas.md](./m3/01-scripts-apis-publicas.md) |
 | API con Python | [01-scripts-apis-publicas.md](./m3/01-scripts-apis-publicas.md) |
 | Skill Creator | [01-scripts-apis-publicas.md](./m3/01-scripts-apis-publicas.md) |
@@ -164,16 +167,16 @@ Términos clave del curso enlazados al archivo donde se explican en profundidad.
 ## 🔁 Rutas de Aprendizaje Recomendadas
 
 **Ruta rápida — solo quiero usar IA hoy:**
-[L01](./m1/01-contexto-tokens-tipos-ia.md) → [L02](./m1/02-panorama-herramientas-llm.md) → [L03](./m1/03-chatgpt-avanzado.md) → [L07](./m2/07-claude-code.md)
+[L01](./m1/01-contexto-tokens-tipos-ia.md) → [L02](./m1/02-panorama-herramientas-llm.md) → [L03](./m1/03-chatgpt-avanzado.md) → [L08](./m2/08-claude-code.md)
 
 **Ruta agentes — quiero automatizar con código:**
-[L01](./m2/01-concepto-agentes.md) → [L02](./m2/02-ecosistema-agentes.md) → [L04](./m2/04-antigravity-cli.md) → [L07](./m2/07-claude-code.md) → [L01](./m3/01-scripts-apis-publicas.md) → [L03](./m3/03-mcp-conceptos.md) → [L07](./m3/07-hooks-arquitectura-contexto.md)
+[L01](./m2/01-concepto-agentes.md) → [L03](./m2/03-ecosistema-agentes.md) → [L05](./m2/05-antigravity-cli.md) → [L08](./m2/08-claude-code.md) → [L01](./m3/01-scripts-apis-publicas.md) → [L03](./m3/03-mcp-conceptos.md) → [L07](./m3/07-hooks-arquitectura-contexto.md)
 
 **Ruta producto — quiero lanzar algo:**
 [L01](./m4/01-arquitectura-web.md) → [L02](./m4/02-frontend-ia-stitch.md) → [L03](./m4/03-backend-git-worktrees.md) → [L04](./m4/04-sdd-harness-engineering.md) → [L07](./m4/07-startup-n8n-graphify.md) → [L08](./m4/08-pagos-deploy-reflexion.md)
 
 **Ruta sin presupuesto — quiero IA gratis:**
-[L05](./m1/05-modelos-open-source.md) → [L05](./m2/05-ollama-modelos-locales.md) → [L08](./m2/08-opencode-opciones.md) → [L06](./m5/06-openrouter-ia-local.md)
+[L05](./m1/05-modelos-open-source.md) → [L06](./m2/06-ollama-modelos-locales.md) → [L09](./m2/09-opencode-opciones.md) → [L06](./m5/06-openrouter-ia-local.md)
 
 **Ruta segundo cerebro — quiero organizar mi conocimiento:**
 [L07](./m1/07-notebooklm-rag-google-labs.md) → [L01](./m5/01-obsidian-intro.md) → [L02](./m5/02-cerebro-digital-notebooklm.md) → [L03](./m5/03-obsidian-ecosistema.md) → [L05](./m5/05-segundo-cerebro-empresarial.md)
